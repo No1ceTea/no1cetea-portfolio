@@ -128,12 +128,12 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @No1ceTea
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://twitter.com/No1ceTea" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"

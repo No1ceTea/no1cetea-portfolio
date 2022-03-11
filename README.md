@@ -1,45 +1,25 @@
-# Takuya's Homepage
+# Jacquot Thai Portfolio
 
-[https://www.craftz.dog/](https://www.craftz.dog/)
+[https://jacquot-thai.vercel.app/](https://jacquot-thai.vercel.app/)
 
-## Tutorial
-
-Watch how I built this website on YouTube:
-
-[![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
 
 ## Stack
 
-- [Next.js](https://nextjs.org/) - A React framework with hybrid static & server rendering, and route pre-fetching, etc.
-- [Chakra UI](https://chakra-ui.com/) - A simple, modular and accessible component library for React
-- [Three.js](https://threejs.org/) - 3D library for JavaScript
-- [Framer Motion](https://www.framer.com/motion/) - An animation library for React
+- [Next.js](https://nextjs.org/) -  Un framework React avec des rendus serveurs et rendements hybrides statique, etc.
+- [Chakra UI](https://chakra-ui.com/) - Une librairie modulaire et accessible de composant pour React
+- [Three.js](https://threejs.org/) - Librairie 3D pour javascript
+- [Framer Motion](https://www.framer.com/motion/) - Librairie d'amination pour React
 
 ## Project structure
 
 ```
 $PROJECT_ROOT
-│   # Page files
+│   # Repertoire pages
 ├── pages
-│   # React component files
+│   # Repertoire de composant React
 ├── components
 │   # Non-react modules
 ├── lib
-│   # Static files for images and 3d model file
+│   # Repertoire Statique pour les images et le modèle 3d
 └── public
 ```
-
-## License
-
-MIT License.
-
-You can create your own homepage for free without notifying me by forking this project under the following conditions:
-
-- Add a link to [my homepage](https://www.craftz.dog/)
-- Do not use the 3d voxel dog
-
----
-
-Looking for a Markdown note-taking app? Check out my app called Inkdrop:
-
-[![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
