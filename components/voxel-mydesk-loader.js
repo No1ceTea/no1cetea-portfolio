@@ -1,7 +1,7 @@
 import { forwardRef  } from 'react'
 import { Box, Spinner } from '@chakra-ui/react'
 
-export const BlackHoleSpinner = () => (
+export const MydeskSpinner = () => (
     <Spinner 
         size="x1"
         position="absolute"
@@ -12,10 +12,10 @@ export const BlackHoleSpinner = () => (
         />
     )
 
-    export const BlackHoleContainer = forwardRef(({ children }, ref) => (
+    export const MydeskContainer = forwardRef(({ children }, ref) => (
         <Box
             ref={ref}
-            className="blackhole"
+            className="mydesk"
             m="auto"
             mt={['-20px', '-60px', '-120px']}
             mb={['-40px', '-140px', '-200px']}
@@ -29,9 +29,9 @@ export const BlackHoleSpinner = () => (
 
     const Loader = () => {
         return (
-            <BlackHoleContainer>
-                <BlackHoleSpinner />
-            </BlackHoleContainer>
+            <MydeskContainer>
+                <MydeskSpinner />
+            </MydeskContainer>
         )
     }
 

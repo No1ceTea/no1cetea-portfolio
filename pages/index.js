@@ -32,7 +32,8 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Bonjour, Je suis étudiant en développement en France!
+	|| (This is my Deskop ^^ ) ||
+	Bonjour, Je suis étudiant en développement en France!
       </Box>
 
       <Box display={{ md: 'flex' }}>

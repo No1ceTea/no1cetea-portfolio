@@ -2,13 +2,13 @@ import { useState, useEffect, useRef, useCallback } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
-import { BlackHoleSpinner, BlackHoleContainer } from './voxel-blackhole-loader'
+import { MydeskSpinner, MydeskContainer } from './voxel-mydesk-loader'
 
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
 }
 
-const VoxelBlackHole = () => {
+const VoxelMydesk= () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
@@ -74,7 +74,7 @@ const VoxelBlackHole = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/BlackHole.glb', {
+      loadGLTFModel(scene, '/MyDesk.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
@@ -122,8 +122,8 @@ const VoxelBlackHole = () => {
   }, [renderer, handleWindowResize])
 
   return (
-    <BlackHoleContainer ref={refContainer}>{loading && <BlackHoleSpinner />}</BlackHoleContainer>
+    <MydeskContainer ref={refContainer}>{loading && <MydeskSpinner />}</MydeskContainer>
   )
 }
 
-export default VoxelBlackHole
+export default VoxelMydesk

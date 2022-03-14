@@ -3,11 +3,11 @@ import dynamic from 'next/dynamic'
 import Navbar from '../navbar'
 import { Box, Container } from '@chakra-ui/react'
 import Footer from '../footer'
-import BlackHoleLoader from '../voxel-blackhole-loader'
+import MydeskLoader from '../voxel-mydesk-loader'
 
-const LazyBlackHole = dynamic(() => import('../voxel-blackhole'), {
+const LazyMydesk = dynamic(() => import('../voxel-mydesk'), {
     ssr: false,
-    loading: () => <BlackHoleLoader />
+    loading: () => <MydeskLoader />
 })
 
 const Main = ({children, router}) => {
@@ -27,7 +27,7 @@ const Main = ({children, router}) => {
              <Navbar path={router.asPath} />
 
              <Container maxW="container.md" pt={14}>
-                <LazyBlackHole />
+                <LazyMydesk />
                 {children}
                 <Footer />
              </Container>

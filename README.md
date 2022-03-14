@@ -10,7 +10,7 @@
 - [Three.js](https://threejs.org/) - Librairie 3D pour javascript
 - [Framer Motion](https://www.framer.com/motion/) - Librairie d'amination pour React
 
-## Project structure
+## Structure du projet
 
 ```
 $PROJECT_ROOT
