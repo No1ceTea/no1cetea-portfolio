@@ -20,7 +20,7 @@ const Main = ({children, router}) => {
                  <meta name="author" content="No1cetea" />
                  <meta property="og:site_name" content="Jacquot Thai Portfolio" />
                  <meta property="og:type" content="website" />
-                 <title>Jacquot Thai - Homepage</title>
+                 <title>Accueil - Jacquot Thai</title>
 
              </Head>
 

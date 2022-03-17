@@ -72,7 +72,7 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/works" path={path}>
-            Works
+            Projets
           </LinkItem>
           <LinkItem href="/veilletechnologique" path={path}>
             Veille Technologique
@@ -107,16 +107,18 @@ const Navbar = props => {
                   <MenuItem as={Link}>C'est moi</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                  <MenuItem as={Link}>Projets</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
+                <NextLink href="/veilletechnologique" passHref>
                   <MenuItem as={Link}>Veille Technologique</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
+                  target="_blank"
                   href="https://github.com/No1ceTea/Mon-portfolio"
                 >
-                  View Source
+                  <IoLogoGithub />
+                  Source
                 </MenuItem>
               </MenuList>
             </Menu>

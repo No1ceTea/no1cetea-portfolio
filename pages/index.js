@@ -32,8 +32,8 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-	|| (This is my Deskop ^^ ) ||
-	Bonjour, Je suis étudiant en développement en France!
+        || (This is my Deskop ^^ ) ||
+        Bonjour, Je suis étudiant en développement en France!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -72,13 +72,15 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          C'est moi
         </Heading>
         <Paragraph>
         Je m'appelle Thai, j'ai 20 ans et je suis actuellement en seconde année de BTS au{' '}  
-          <NextLink href="https://www.lyceedecachan.fr/" scroll={false}>
-            <Link>Lycée Polyvalent de Cachan</Link>
-          </NextLink>
+            <Link
+             href="https://www.lyceedecachan.fr/"
+             scroll={false}
+             target="_blank"
+            >Lycée Polyvalent de Cachan</Link>
           . Ce portfolio fut réalisé durant ma seconde année de BTS SIO (Services Informatiques aux Organisation) Option SLAM (Développement d'applications).
         </Paragraph>
         <Box align="center" my={4}>
@@ -113,7 +115,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Musique, Basket, Beatmaking, Jeux vidéos, Sneakers addict
+          Musique, Basket, Beatmaking, Jeux vidéos, Sneakers addict, Astronomie
         </Paragraph>
       </Section>
 

@@ -11,14 +11,14 @@ const Work = () => (
         CandyShop "Haribo" <Badge>2021</Badge>
       </Title>
       <P>
-        Site  créer pour mettre en pratique nos premières connaissance de première année. Nous avons ici utilisé principalement du PHP
+        Site créer pour mettre en pratique nos premières connaissance de première année. Nous avons ici utilisé principalement du PHP
         pour créer des fonctionnalités tel que ajouter, modifier ou supprimer des bonbons de la base de données. 
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <Link href="#">
-            Link test <ExternalLinkIcon mx="2px" />
+            Pas de lien pour le moment <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

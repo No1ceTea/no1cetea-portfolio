@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid} from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 
@@ -7,15 +7,15 @@ const Veilletechnologique = () => {
         <Layout>
             <Container>
                 <Heading as="h3" fontSize={20} mb={4}>
-                    Veille technologique
+                    Les processeurs Apple
                 </Heading>
-
                 <SimpleGrid column={[1,1,2]} gap={6}>
                     <Section>
-                        Ceci n'est qu'un test
-                        
+                        Les processeurs Apple sont sortis en 2020, avec la sortie de leurs nouveau Macbook Air.
+                        Les puces sont nommées "M1" 
                     </Section>
                 </SimpleGrid>
+                
             </Container>
         </Layout>
 
