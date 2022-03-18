@@ -1,6 +1,6 @@
 import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, Meta } from '../../components/work'
+import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
@@ -12,7 +12,7 @@ const Work = () => (
             </Title>
             <P>
                 Tout premier site créer pour pratiquer du HTML et du CSS.
-                Inspiré par les 
+                Inspiré par les vidéos de <Link href="https://www.youtube.com/c/inanutshell">Kurzgesagt</Link>. 
             </P>
             <List ml={4} my={4}>
                 <ListItem>
@@ -33,9 +33,12 @@ const Work = () => (
                 </ListItem>
             </List>
 
+            <WorkImage src="/images/AstroThai1.png" alt="astro1" />
+            <WorkImage src="/images/AstroThai2.png" alt="astro2" />
+            <WorkImage src="/images/AstroThai3.png" alt="astro3" />
         </Container>
     </Layout>
 )
 
-export default Work
-export { getServerSideProps } from '../../components/chakra'
+    export default Work
+    export { getServerSideProps } from '../../components/chakra'
