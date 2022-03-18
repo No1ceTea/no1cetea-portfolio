@@ -3,6 +3,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
+import thumbAstro from '../public/images/AstroThai1.png'
 import thumbBank from '../public/images/thai.jpg'
 import thumbCandy from '../public/images/bonbonweb.png'
 
@@ -16,7 +17,7 @@ const Works = () => {
 
                 <SimpleGrid column={[1,1,2]} gap={6}>
                     <Section>
-                        <WorkGridItem id="astro" title="Premier site en html" thumbnail={thumbCandy}>
+                        <WorkGridItem id="astro" title="Premier site en html" thumbnail={thumbAstro}>
                             Créer un site en html et css avec un sujet ou thème libre.
                         </WorkGridItem>
                     </Section>
