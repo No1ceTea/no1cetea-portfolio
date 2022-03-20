@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoCodeSlash } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -107,7 +107,7 @@ const Navbar = props => {
                   <MenuItem as={Link}>C'est moi</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Projets</MenuItem>
+                  <MenuItem as={Link}><IoCodeSlash />Projets</MenuItem>
                 </NextLink>
                 <NextLink href="/veilletechnologique" passHref>
                   <MenuItem as={Link}>Veille Technologique</MenuItem>
