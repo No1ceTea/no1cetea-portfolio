@@ -42,9 +42,11 @@ const Work = () => (
         </ListItem>
 
       </List>
+
+      <WorkImage src="/images/Accueil_Réservation.png" />
     </Container>
   </Layout>
 )
 
 export default Work
-export { GetServerSideProps } from '../../components/chakra' 
+export { getServerSideProps } from '../../components/chakra'

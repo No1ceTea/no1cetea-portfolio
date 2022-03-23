@@ -6,6 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbAstro from '../public/images/AstroThai1.png'
 import thumbBank from '../public/images/bank1.png'
 import thumbCandy from '../public/images/bonbonweb.png'
+import thumbSicilyLines from '../public/images/Accueil_Réservation.png'
 
 const Works = () => {
   return (
@@ -38,7 +39,7 @@ const Works = () => {
           </Section>
 
           <Section>
-            <WorkGridItem id="sicilylines" title="SicilyLines" thumbnail={thumbBank}>
+            <WorkGridItem id="sicilylines" title="Sicily-Lines" thumbnail={thumbSicilyLines}>
               Site et application lourde permettant de faire des resérvations
             </WorkGridItem>
           </Section>

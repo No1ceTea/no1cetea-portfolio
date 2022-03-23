@@ -5,7 +5,7 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="Bank">
+  <Layout title="Banque">
     <Container> 
       <Title>
         Banque <Badge>2021</Badge>
