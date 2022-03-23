@@ -76,12 +76,13 @@ const Home = () => (
         </Heading>
         <Paragraph>
         Je m'appelle Thai, j'ai 20 ans et je suis actuellement en seconde année de BTS au{' '}  
-            <Link
-             href="https://www.lyceedecachan.fr/"
-             scroll={false}
-             target="_blank"
-            >Lycée Polyvalent de Cachan</Link>
-          . Ce portfolio fut réalisé durant ma seconde année de BTS SIO (Services Informatiques aux Organisation) Option SLAM (Développement d'applications).
+              <Link
+              href="https://www.lyceedecachan.fr/"
+              scroll={false}
+              target="_blank"
+              >Lycée Polyvalent de Cachan</Link>
+          . Ce portfolio fut réalisé durant ma seconde année de BTS SIO (Services Informatiques aux Organisation)
+           Option SLAM (Solutions Logicielles et Application Métier).
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
@@ -90,6 +91,17 @@ const Home = () => (
             </Button>
           </NextLink>
         </Box>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          Projet professionnel
+        </Heading>
+        <Paragraph>
+          Je souhaite devenir WebMaster / Web développeur(concepteur de site internet) ou chef de projet.
+          Après mon BTS SIO, je souhaite me dirigé dans un cycle ingénieur informatique et management à 
+          l'institut G4 à Cww hatelêt.
+        </Paragraph>
       </Section>
 
       <Section delay={0.2}>
@@ -106,11 +118,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-          (En cours) étude en seconde année de BTS SIO option SLAM
+          (En cours) Etude en seconde année de BTS SIO option SLAM
         </BioSection>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.5}>
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
@@ -119,7 +131,7 @@ const Home = () => (
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section delay={0.7}>
         <Heading as="h3" variant="section-title">
           Réseaux sociaux
         </Heading>
