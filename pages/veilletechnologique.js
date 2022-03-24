@@ -1,8 +1,9 @@
-import { Container, Heading, SimpleGrid, Box, useColorModeValue, Link, Badge, Button, ListItem} from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Box, useColorModeValue, Link, Badge, Button, ListItem } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import P from '../components/paragraph'
 import { WorkImage } from '../components/work'
+import { GridItem } from '../components/grid-item'
 
 import {
   Popover,
@@ -13,6 +14,12 @@ import {
   PopoverArrow,
   PopoverCloseButton,
 } from '@chakra-ui/react'
+
+import thumbCPUperf1 from '../public/images/CPUperfvspower1.png'
+import thumbCPUperf2 from '../public/images/CPUperfvspower2.png'
+import thumbCPUperf3 from '../public/images/CPUperfvspower3.png'
+import thumbGPUperf1 from '../public/images/GPUperfvspower1.png'
+import thumbGPUperf2 from '../public/images/GPUperfvspower2.png'
 
 const Veilletechnologique = () => {
   return (
@@ -291,8 +298,38 @@ const Veilletechnologique = () => {
             </P>
             <WorkImage src="images/Allpuce.png" />
             <WorkImage src="images/M1_ULTRA.png" />
+            On voit les deux puces Apple M1 Max avec un interposeur, ainsi que la mémoire unifiée tout autour
+            <P>
+            Comme pour les M1 Pro et M1 Max, Apple nous a noyés sous les chiffres : 
+            le M1 Max utilise une interconnexion multipuce Die2Die à 2,5 To/s, 
+            avec 128 Go de mémoire unifiée, 114 milliards de transistors… On retrouve jusqu'à 20 cœurs CPU, 
+            64 cœurs GPU et un moteur neuronal de 32 cœurs.
+            <P>
+            Pour construire la puce M1 Ultra, les puces de deux M1 Max ont été connectées à l'aide d'UltraFusion, 
+            l'architecture de conditionnement personnalisée d'Apple. Apple n'a pas connecté les deux puces via la carte mère, 
+            mais ils ont utilisé un interposeur en silicium qui relie les puces par plus de 10 000 signaux, 
+            offrant ainsi une bande passante interprocesseurs massive de 2,5 To/s à faible latence, 
+            soit plus de quatre fois la bande passante de la principale technologie d'interconnexion multipuces.
+            </P>
+            <P>
+            Cela permet à la M1 Ultra de se comporter et d'être reconnue par les logiciels comme une seule puce, 
+            de sorte que les développeurs n'ont pas besoin de réécrire le code pour tirer parti de ses performances.
+            </P>
+            La marque américaine évoque une puissance 8 fois plus importante que le M1 ! Cette puce conçue pour les machines de bureau possède même un double moteur de décodage vidéo.
+            </P>  
           </SimpleGrid>
         </Section>
+
+        <Section delay={0.3}>
+          <SimpleGrid columns={[1, 2, 2]} gap={6}>
+            <GridItem thumbnail={thumbCPUperf1} />
+            <GridItem thumbnail={thumbCPUperf2} />
+            <GridItem thumbnail={thumbCPUperf3} />
+            <GridItem thumbnail={thumbGPUperf1} />
+          </SimpleGrid>
+          <WorkImage src="images/GPUperfvspower2.png" />
+        </Section>
+
 
       </Container>
     </Layout>
