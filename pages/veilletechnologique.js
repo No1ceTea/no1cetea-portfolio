@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Box, useColorModeValue, Link, Badge, Button, ListItem} from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Box, useColorModeValue, Link, Badge, Button, ListItem, GridItem} from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import P from '../components/paragraph'
@@ -89,6 +89,7 @@ const Veilletechnologique = () => {
           </Link>
           <br />
           <Badge>10 Novembre 2020</Badge>
+          <Badge ml={60}>Apple.com</Badge>
         </Heading>
         <Section>
           <SimpleGrid column={[1, 1, 2]} gap={6}>
@@ -166,6 +167,7 @@ const Veilletechnologique = () => {
           </Link>
           <br />
           <Badge>26 mars 2021</Badge>
+          <Badge ml={60}>frandroid.com</Badge>
         </Heading>
         <Section>
           <SimpleGrid column={[1, 1, 2]} gap={6}>
@@ -178,6 +180,68 @@ const Veilletechnologique = () => {
               <WorkImage src="images/benchi7vsM1.jpg" />
             </P>
           </SimpleGrid>    
+        </Section>
+
+        <Heading as="h3" fontSize={20} mb={8}>
+          <Link href="" target="_blank">
+          Apple dévoile les M1 Pro et M1 Max pour MacBook Pro aux performances gargantuesques
+          <Badge>18 octobre 2021</Badge>
+          </Link>
+        </Heading>
+        <Section>
+          <SimpleGrid column={[1, 1, 2]} gap={6}>
+            <P>
+            Lors de son Special Event, Apple a présenté les M1 Pro et M1 Max, deux puces qui repoussent encore plus loin les performances du M1.
+            <br />
+            <P>
+            Les M1 Pro et M1 Max introduisent pour la première fois une architecture SoC dans sa gamme Pro
+            (puisqu'ils sont destinés à équiper les nouveaux MacBook Pro en format 14 pouces et 16 pouces, 
+            disponibles dès la semaine prochaine. Apple a présenté cette première puce comme une volonté de
+            « mettre à l'échelle l'architecture M1 » en doublant au passage l'interface mémoire. Il s'agit donc toujours d'une architecture en 5nm.
+            La bande passante de la puce devrait pouvoir monter jusqu'à 200 GB/s, tirant parti de ses 32 Go de mémoire unifiée.
+            La puce propose 10 cœurs dédiés au CPU, dont deux qui s'occupent de l'efficacité énergétique et 16 cœurs GPU, 
+            soit 8 de plus que le M1. La puce possède en tout 33,7 milliards de transistors.
+            <WorkImage src="images/Apple_chipM1ProMax.jpg" />
+            Selon Apple, cette puce devrait afficher des performances 70 % plus rapides que la M1 classique. Ses performances graphiques devraient être multipliées par deux.
+            </P>
+            <WorkImage src="images/M1_MAX.png" />
+            <P>
+            La M1 Max a l'air d'être en somme une M1 Pro multipliée par deux, en particulier pour la partie graphique. 
+            Elle propose 400 GB/s de bande passante, 10 cœurs CPU et 32 cœurs graphiques ! Le tout est appuyé par 64 Go de mémoire.
+            Pour preuve le M1 Max est 35% plus rapide que le M1 Pro 70 % comparé au M1 Pro. En tout, 
+            elle embarque 57 milliards de transistors. Il s'agit de « la plus grosse puce » jamais fabriquée par Apple.
+            La firme promet des performances graphiques hors du commun, 
+            multipliée par quatre par rapport à la M1. Voici un graphique qui compare les performances des M1 Pro et M1 Max avec la M1 et avec une puce quatre cœurs classiques.
+            </P>
+            <WorkImage src="images/CPUperf.png" />
+            <WorkImage src="images/GPUpower.png" />
+            <P>
+            S'il faudra analyser tout cela la tête froide, notons qu'Apple compte bien tirer parti de 
+            l'architecture ARM en proposant des puces très peu énergivores, et donc qui chauffent peu.
+            Selon Apple, la M1 Max proposera les mêmes performances branchée ou sur batterie. 
+            La firme de Cupertino déclare même que sa puce pourrait jouer à jeu égal avec une carte graphique de PC portable.
+            Notons aussi la présence d'unités spécialisées comme un nouveau « Display Engine » qui peut gérer plusieurs écrans externes. 
+            En outre, 16 cœurs Neural Engine se consacrent au
+            <Popover >
+              <PopoverTrigger>
+                <Button colorScheme='teal' variant='link' ml={1}> Machine Learning </Button>
+              </PopoverTrigger>
+              <PopoverContent>
+                <PopoverArrow />
+                <PopoverCloseButton />
+                <PopoverBody>
+                <br />
+                Le Machine Learning ou apprentissage automatique est un domaine scientifique, 
+                et plus particulièrement une sous-catégorie de l'intelligence artificielle. 
+                Elle consiste à laisser des algorithmes découvrir des ” patterns “, 
+                à savoir des motifs récurrents, dans les ensembles de données.
+                </PopoverBody>
+              </PopoverContent>
+            </Popover>
+            .
+            </P>
+            </P>
+          </SimpleGrid>
         </Section>
 
         <Heading as="h3" fontSize={20} mb={8}>
@@ -210,11 +274,30 @@ const Veilletechnologique = () => {
             </P>
           </SimpleGrid>
         </Section>
-      
+
+        <Heading as="h3" fontSize={20} mb={8}>
+          <Link href="https://www.frandroid.com/marques/apple/1255483_apple-m1-ultra-annoncee-tous-les-chiffres-de-la-nouvelle-puce-surpuissante" target="_blank">
+          Apple M1 Ultra annoncée : tous les chiffres de la nouvelle puce « surpuissante » qui combine deux Apple M1 Max
+          </Link>
+          <br />
+          <Badge>08 mars 2022</Badge>
+          <Badge ml={60}>frandroid.com</Badge>
+        </Heading>        
+        <Section>
+          <SimpleGrid column={[1, 1, 2]} gap={6}>
+            <P>
+            Les puces qui équipent le nouveau MacBook Pro sont dotées d'un CPU 10 cœurs, un GPU 32 cœurs, 64 Go de mémoire unifiée,
+            une carte accélératrice ProRes et la meilleure efficacité énergétique du marché.
+            </P>
+            <WorkImage src="images/Allpuce.png" />
+            <WorkImage src="images/M1_ULTRA.png" />
+          </SimpleGrid>
+        </Section>
+
       </Container>
     </Layout>
   )
 }
 
 export default Veilletechnologique
-export { getServerSideProps } from '../components/chakra'
+export { getServerSideProps } from '../components/chakra' 
