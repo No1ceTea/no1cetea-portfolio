@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Box, useColorModeValue, Link, Badge, Button, ListItem, GridItem} from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Box, useColorModeValue, Link, Badge, Button,  } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import P from '../components/paragraph'
