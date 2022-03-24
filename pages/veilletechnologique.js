@@ -19,7 +19,6 @@ import thumbCPUperf1 from '../public/images/CPUperfvspower1.png'
 import thumbCPUperf2 from '../public/images/CPUperfvspower2.png'
 import thumbCPUperf3 from '../public/images/CPUperfvspower3.png'
 import thumbGPUperf1 from '../public/images/GPUperfvspower1.png'
-import thumbGPUperf2 from '../public/images/GPUperfvspower2.png'
 
 const Veilletechnologique = () => {
   return (

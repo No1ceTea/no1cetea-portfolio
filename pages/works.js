@@ -40,7 +40,7 @@ const Works = () => {
 
           <Section>
             <WorkGridItem id="sicilylines" title="Sicily-Lines" thumbnail={thumbSicilyLines}>
-              Site et application lourde permettant de faire des resérvations
+              Site et application lourde permettant de faire des resérvations de bateau
             </WorkGridItem>
           </Section>
 
