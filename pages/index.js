@@ -33,6 +33,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
         || (This is my Deskop ^^ ) ||
+        <br />
         Bonjour, Je suis étudiant en développement en France!
       </Box>
 
@@ -98,9 +99,9 @@ const Home = () => (
           Projet professionnel
         </Heading>
         <Paragraph>
-          Je souhaite devenir WebMaster / Web développeur(concepteur de site internet) ou chef de projet.
+          Je souhaite devenir WebMaster / Web développeur (concepteur de site internet) ou chef de projet.
           Après mon BTS SIO, je souhaite me dirigé dans un cycle ingénieur informatique et management à 
-          l'institut G4 à Cww hatelêt.
+          l'institut G4 à Chatelêt.
         </Paragraph>
       </Section>
 
@@ -127,7 +128,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Musique, Basket, Beatmaking, Jeux vidéos, Sneakers addict, Astronomie
+          Musique, Basket, Beatmaking, Jeux vidéos, Sneakers, Astronomie
         </Paragraph>
       </Section>
 

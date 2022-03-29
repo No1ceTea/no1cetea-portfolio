@@ -13,11 +13,10 @@ const Work = () => (
       <P>
         Projet divisé en 3 missions pour mettre en pratique nos connaissance en Symfony et twig.
         Une base de données en MySQL est aussi lié au site SicilyLines.
-      </P>
-        Dans la mission 3, une application lourde en C# à été demander avec les fonctionnalités suivantes : 
-        test, test et test.
       <P>
-
+        Dans la mission 3, une application lourde en C# à été demander avec les fonctionnalités suivantes : 
+        
+      </P>
       </P>
       <List ml={4} my={4}>
         <ListItem>
