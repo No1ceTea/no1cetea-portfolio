@@ -30,6 +30,7 @@ const Work = () => (
           <span>HTML, CSS, JS, MySQL</span>
         </ListItem>
       </List>
+      
 
       <WorkImage src="/images/Accueil_Réservation.png" />
     </Container>

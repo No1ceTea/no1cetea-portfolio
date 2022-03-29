@@ -100,91 +100,83 @@ const Veilletechnologique = () => {
             Pour éviter les longues attentes devant les boutiques (qui finissent généralement par des bagarres), 
             la plupart des grandes marques de chaussures ont décidé de mettre en vente leurs nouveaux sneakers en 
             ligne. De plus, il n'est plus question de « qui est arrivé en premier ? », mais d'un système de raffle tout à fait différent : le tirage au sort.
+            </P>
             <P>
             C'est là qu'interviennent les bots. C'est le meilleur moyen de mettre les chances de son côté et d'être choisi 
             dans le tirage au sort pour obtenir les dernières sorties de sneakers limités pour ensuite les ajouter à sa 
             collection de chaussures ou simplement pour les revendre à un prix plus élevé pour se faire des bénéfices.
             </P>
+            <P>
+            Les langages les plus utilisés pour créer ces bots ou script sont le Python, C++, C# ou encore Ruby et Java/Javascript.
+            Le bot est programé de façon à automatisé et passer devant tout le monde lors de votre achat.
+            il va donc automatisé votre requête qui se modifie selon le produit que vous chercher, passera sous proxy, remplira les formulaires
+            de paiement automatiquement et finalisera votre achat en seulement quelques secondes.
             </P>
             </P>
           </Section>
         </SimpleGrid>
 
         <Heading as="h3" fontSize={20} mb={8}>
-          <Link href="https://www.apple.com/fr/newsroom/2020/11/apple-unleashes-m1/" target="_blank">
-          Apple lance la puce révolutionnaire M1 
-          </Link>
-          <br />
-          <Badge>10 Novembre 2020</Badge>
-          <Badge ml={60}>Apple.com</Badge>
+          Les anti-bots et proxy
         </Heading>
-        <Section>
-          <SimpleGrid column={[1, 1, 2]} gap={6}>
+        <SimpleGrid column={[1, 1, 2]} gap={6}>
+          <Section>
             <P>
-              Produit de la maison de la pomme, La puce M1 épouse parfaitement le software macOS.
-              La puce M1 est un système sur puce ou un System on a Chip (SoC). Cela signifie qu'une seul puce 
-              effectue tous les calculs, elle est aussi la première puce à être gravé à 5nm. Etant donné que 
-              tout est sur une puce, plus besoin d'envoyer les données, elles sont immédiatement disponible
-              pour tout les différents processus à effectuer. Cette colaboration améliore à son tour la vitesse 
-              de l'ensemble.
-              <P>
-              <Popover>
+              Comme cette pratique est assez controverser, il est nécessaires pour les vendeurs de sécuriser leurs site
+              pour que les clients on la même chance d'avoir leurs chaussures. Alors les anti-bots et système de ban-ip
+              sont mise en place pour contrer les scripts et les bots.
+            <P>
+              Seulement, les développeurs ont toujours plus d'un tour dans leur sac et on réussi à backdoor les anti-bot.
+              Pour comprendre comment cela fonctionne, nous allons voir comment fonctionne un anti-bot et comment le contourné.
+            </P>
+            <P>
+              Les anti-bots utilise jQuery avec une correspondance de modèle tel que <Popover>
                 <PopoverTrigger>
-                  <Button colorScheme='teal' variant='link'> Le CPU </Button>
+                  <Button colorScheme='teal' variant='link'> XPath </Button>
+                </PopoverTrigger>
+                <PopoverContent>
+                  <PopoverArrow />
+                  <PopoverCloseButton />
+                  <PopoverBody>
+                    <br />
+                    XPath est un langage de requête pour localiser une portion d'un document XML. 
+                    Initialement créé pour fournir une syntaxe et une sémantique aux fonctions communes à XPointer et XSL, 
+                    XPath a rapidement été adopté par les développeurs comme langage d'interrogation simple d'emploi
+                  </PopoverBody>
+                </PopoverContent>
+              </Popover> ou <Popover>
+                <PopoverTrigger>
+                  <Button colorScheme='teal' variant='link'> Regex </Button>
                 </PopoverTrigger>
                 <PopoverContent>
                   <PopoverArrow />
                   <PopoverCloseButton />
                   <PopoverHeader>
                     <br /> 
-                    <ListItem>CPU : 8 cœurs, fréquence maximale à 3,20 GHz</ListItem>
+                    Regex
                   </PopoverHeader>
                   <PopoverBody>
-                    <ListItem>
-                    4 cœurs haute performance (3,20 GHz, 192 Ko cache d'instructions, 128 Ko cache de données, 12 Mo mémoire niveau 2 partagée)
-                    </ListItem>
-                    <ListItem>
-                    4 cœurs haute efficacité (2,10 GHz, 128 Ko cache d'instructions, 64 Ko cache de données, 4 Mo mémoire niveau 2 partagée)
-                    </ListItem>
+                  En informatique, une expression régulière ou expression rationnelle ou expression normale ou
+                  motif est une chaîne de caractères qui décrit, selon une syntaxe précise, 
+                  un ensemble de chaînes de caractères possibles. Les expressions régulières sont également appelées regex.
                   </PopoverBody>
                 </PopoverContent>
-              </Popover> embarqués avec 8 cœurs, fréquence maximale à 3,20 GHz.
-              Quant au <Popover>
-                <PopoverTrigger>
-                  <Button colorScheme='teal' variant='link'>GPU intégré </Button>
-                </PopoverTrigger>
-                <PopoverContent>
-                  <PopoverArrow />
-                  <PopoverCloseButton />
-                  <PopoverHeader>
-                    
-                    <ListItem>GPU : 7 ou 8 cœurs</ListItem>
-                  </PopoverHeader>
-                  <PopoverBody>
-                    <ListItem>128 unités d'exécutions</ListItem>
-                    <ListItem>Jusqu'à 8 threads</ListItem>
-                    <ListItem>2,6 téraflops (FP32)</ListItem>
-                    <ListItem>82 gigatexels par seconde</ListItem>
-                    <ListItem>41 gigapixels par seconde</ListItem>
-                  </PopoverBody>
-                </PopoverContent>
-              </Popover> à la puce qui embarque 7 cœurs extensible à 8 cœurs.
-              </P>
+              </Popover> pour détecter et manipuler les champs de formulaire, ce qui rend donc impossible pour un bot de remplir 
+              les formulaires comme convenue.
               <P>
-              Possedant le Neural Engine, le Mac accélère considérablement les tâches d'apprentissage automatiquement.
-              reposant sur l'architecture 16 cœurs la plus avancée d'Apple et est capable d'exécuter 11 000 milliards
-              d'opération à la fois (comparaison à AMD ou Intel). Cette puce possède aussi les dernières technologies
-              les plus performantes conçues sur mesure tel que le tout dernier processeur de signal d'image qui assure
-              une qualité d'image et de son de la plus haute qualité, la toute dernière Secure Enclave, qui garantit une sécurité
-              hors pair ou encore des moteurs d'encodage et de décodage multimédia efficaces et économes.
+                C'est alors que rentre en jeux le reverse enginner ou rétro-ingénieurie. Les développeurs vont étudier l'objet 
+                pour en comprendre le fonctionnement interne et donc ça méthode de fabrication. En faisant ça , vous pouvez 
+                comprendre l'anti-bot et ainsi développer les nouvelles requêtes en fonction de l'anti-bot.
               </P>
-              <P>
-              La puce assure être la meilleur dans les performances par watt au monde, ces cœurs sont les cœurs 
-              de CPU les plus rapides au monde pour une puce à faible consommation d'énergie.
-              </P>
+            <P>
+              Les proxy sont quand eux aussi essentiels. Il permet au bot d'avoir une "passerelle" par laquelle votre
+              ordinateur peut accéder et effectuer des recherches sur Internet de manière anonyme. D'une autre manière,
+              votre adresse ip est masqué et permet de ne pas se faire ban des sites en question tel que Nike ou Adidas.
             </P>
-          </SimpleGrid>
-        </Section>
+            </P>
+            </P>
+          </Section>
+        </SimpleGrid>
 
         
       </Container>

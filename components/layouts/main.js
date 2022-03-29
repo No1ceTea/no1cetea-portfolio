@@ -20,6 +20,7 @@ const Main = ({ children, router }) => {
         <meta name="author" content="No1cetea" />
         <meta property="og:site_name" content="Jacquot Thai Portfolio" />
         <meta property="og:type" content="website" />
+        <link rel="icon" type="image/png" href="/images/Hamsterthai.jpg" />
         <title>Accueil - Jacquot Thai</title>
 
       </Head>
