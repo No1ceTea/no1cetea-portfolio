@@ -1,9 +1,8 @@
-import { Container, Heading, SimpleGrid, Box, useColorModeValue, Link, Badge, Button, ListItem } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Box, useColorModeValue, Button } from '@chakra-ui/react'
 import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import P from '../components/paragraph'
 import { WorkImage } from '../components/work'
-import { GridItem } from '../components/grid-item'
 
 import {
   Popover,
@@ -106,6 +105,7 @@ const Veilletechnologique = () => {
             dans le tirage au sort pour obtenir les dernières sorties de sneakers limités pour ensuite les ajouter à sa 
             collection de chaussures ou simplement pour les revendre à un prix plus élevé pour se faire des bénéfices.
             </P>
+            <WorkImage src="images/FlareAIO.png" />
             <P>
             Les langages les plus utilisés pour créer ces bots ou script sont le Python, C++, C# ou encore Ruby et Java/Javascript.
             Le bot est programé de façon à automatisé et passer devant tout le monde lors de votre achat.
@@ -177,7 +177,6 @@ const Veilletechnologique = () => {
             </P>
           </Section>
         </SimpleGrid>
-
         
       </Container>
     </Layout>
