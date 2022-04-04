@@ -19,9 +19,17 @@ const Work = () => (
           <Meta>Images</Meta>
         </ListItem>
       </List>
-
+      
+      
       <WorkImage src="/images/BlackHole_V1.png" />
       <WorkImage src="/images/BlackHole_V2.png" />
+      <WorkImage src="/images/Lowpolygarden.png" />
+      <WorkImage src="/images/Kitchen.png" />
+      <WorkImage src="/images/Bedroom.png" />
+      <WorkImage src="/images/Sushi.png" />
+      <WorkImage src="/images/Island.png" />
+      <WorkImage src="/images/Forestroad.png" />
+
     </Container>
   </Layout>
 )

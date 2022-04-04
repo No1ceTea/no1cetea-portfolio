@@ -9,6 +9,7 @@ import thumbBank from '../public/images/bank1.png'
 import thumbCandy from '../public/images/bonbonweb.png'
 import thumbSicilyLines from '../public/images/Accueil_Réservation.png'
 import thumbblackbot from '../public/images/blackbotscript.png'
+import thumbMontriond from '../public/images/montriond.png'
 
 const Works = () => {
   return (
@@ -36,6 +37,12 @@ const Works = () => {
           <Section>
             <WorkGridItem id="candy" title="Site de bonbon 'Haribo'" thumbnail={thumbCandy}>
               Site marchand de bonbon pour mettre en pratique nos connaissance en PHP.
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem id="montriond" title="Sdcmontriond" thumbnail={thumbMontriond}>
+              Site web pour la diffusion es information pour le batiment Montriond situé à Créteil.
             </WorkGridItem>
           </Section>
 
