@@ -77,8 +77,8 @@ const Navbar = props => {
           <LinkItem href="/works" path={path} display="inline-flex" alignItems="center" style={{ gap:4 }} pl={2}>
             <IoCode /> Projets
           </LinkItem>
-          <LinkItem href="/veilletechnologique" path={path} display="inline-flex" alignItems="center" style={{ gap:4 }} pl={2}>
-            <IoFileTrayStacked /> Veille Technologique
+          <LinkItem href="/veilleinformationnelle" path={path} display="inline-flex" alignItems="center" style={{ gap:4 }} pl={2}>
+            <IoFileTrayStacked /> Veille
           </LinkItem>
           <LinkItem
             target="_blank"

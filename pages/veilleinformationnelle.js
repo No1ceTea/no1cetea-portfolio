@@ -14,7 +14,7 @@ import {
   PopoverCloseButton,
 } from '@chakra-ui/react'
 
-const Veilletechnologique = () => {
+const Veilleinformationnelle = () => {
   return (
     <Layout>
       <Container>
@@ -183,5 +183,5 @@ const Veilletechnologique = () => {
   )
 }
 
-export default Veilletechnologique
+export default Veilleinformationnelle
 export { getServerSideProps } from '../components/chakra' 
