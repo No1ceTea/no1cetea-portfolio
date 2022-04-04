@@ -8,7 +8,7 @@ import thumbAstro from '../public/images/AstroThai1.png'
 import thumbBank from '../public/images/bank1.png'
 import thumbCandy from '../public/images/bonbonweb.png'
 import thumbSicilyLines from '../public/images/Accueil_Réservation.png'
-import thumbblackbot from '../public/images/Blackbotscript.png'
+import thumbblackbot from '../public/images/blackbotscript.png'
 
 const Works = () => {
   return (
