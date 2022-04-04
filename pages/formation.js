@@ -1,6 +1,7 @@
 import { Container, Heading } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section' 
+import P from '../components/paragraph'
 
 const Formation = () => {
   return(
@@ -11,7 +12,7 @@ const Formation = () => {
         </Heading>
         <Section>
           <P>
-            Le bts services informatiques aux organisations est un bts terciaire  
+            Le bts services informatiques aux organisations 
           </P>
         </Section>
       </Container>
