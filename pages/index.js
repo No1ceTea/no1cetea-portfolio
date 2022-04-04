@@ -34,7 +34,7 @@ const Home = () => (
       >
         || (This is my Deskop ^^ ) ||
         <br />
-        Bonjour, Je suis étudiant en développement en France!
+        Bonjour, Je suis étudiant en développement informatique en France!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -101,11 +101,11 @@ const Home = () => (
         <Paragraph>
           Je souhaite devenir WebMaster / Web développeur (concepteur de site internet) ou chef de projet.
           Après mon BTS SIO, je souhaite me dirigé dans un cycle ingénieur informatique et management à 
-          l'institut G4 à Chatelêt.
+          l'institut G4 à Châtelet.
         </Paragraph>
       </Section>
 
-      <Section delay={0.2}>
+      <Section delay={0.4}>
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
@@ -118,8 +118,12 @@ const Home = () => (
           Obtention du BAC technologique STI2D spécialité SIN (Service d'information et numérique)
         </BioSection>
         <BioSection>
+          <BioYear>2021</BioYear>
+          Formation en première année de BTS SIO option SLAM
+        </BioSection>
+        <BioSection>
           <BioYear>2022</BioYear>
-          (En cours) Etude en seconde année de BTS SIO option SLAM
+          (En cours) Formation en seconde année de BTS SIO option SLAM
         </BioSection>
       </Section>
 

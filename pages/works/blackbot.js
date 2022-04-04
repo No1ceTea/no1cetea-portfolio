@@ -12,7 +12,7 @@ const Work = () => (
       </Title>
       <P>
       BlackBot est un outil qui permet de s'exercer au développement pour avoir les bagages
-      nécessaires à développer sont propre bot.
+      nécessaires à développer son propre bot.
       BlackBot.me est le site vitrine pour vendre cette formation.
       Grâce à ces cours, vous apprenez à installer Python, faire des requêtes,
       parse une réponse JSON/HTML, faire un script qui autocheckout sur un Shopify,

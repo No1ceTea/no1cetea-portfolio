@@ -41,8 +41,8 @@ const Works = () => {
 
           <Section>
             <WorkGridItem id="banque" title="Application banque" thumbnail={thumbBank}>
-              Project d'application en C# avec Visual Studio pour imiter les fonctions d'une banque.
-
+              Project d'application en C# avec Visual Studio pour imiter les fonctions d'une application
+              bancaire.
             </WorkGridItem>
           </Section>
 

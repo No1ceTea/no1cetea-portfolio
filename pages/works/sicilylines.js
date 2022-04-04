@@ -27,8 +27,13 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Symfony4.0, Twig, CSS</span>
+          <span>Symfony, Twig, CSS</span>
         </ListItem>
+      </List>
+
+      <WorkImage src="/images/Accueil_Réservation.png" />
+
+      <List ml={4} my={4}>
         <ListItem>
           <Meta>Application</Meta>
           <Link href="#">
@@ -37,12 +42,10 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>C#</span>
+          <span>C#, Java, PHP</span>
         </ListItem>
-
       </List>
-
-      <WorkImage src="/images/Accueil_Réservation.png" />
+      
     </Container>
   </Layout>
 )

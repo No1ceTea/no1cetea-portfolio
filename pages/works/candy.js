@@ -12,7 +12,7 @@ const Work = () => (
       </Title>
       <P>
         Site créer pour mettre en pratique nos premières connaissance de première année. Nous avons ici utilisé principalement du PHP
-        pour créer des fonctionnalités tel que ajouter, modifier ou supprimer des bonbons de la base de données. 
+        pour créer des fonctionnalités tel qu'ajouter, modifier ou supprimer des bonbons de la base de données. 
       </P>
       <List ml={4} my={4}>
         <ListItem>

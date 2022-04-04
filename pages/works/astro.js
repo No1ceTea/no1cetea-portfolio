@@ -12,7 +12,7 @@ const Work = () => (
       </Title>
       <P>
         Tout premier site créer pour pratiquer du HTML et du CSS.
-        Inspiré par les vidéos de <Link href="https://www.youtube.com/c/inanutshell">Kurzgesagt</Link>.
+        Inspirer par les vidéos de <Link href="https://www.youtube.com/c/inanutshell">Kurzgesagt</Link>.
       </P>
       <List ml={4} my={4}>
         <ListItem>
