@@ -1,4 +1,4 @@
-import { Container, Heading } from '@chakra-ui/react'
+import { Container, Heading, List, ListIcon, ListItem, Text } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section' 
 import P from '../components/paragraph'
@@ -58,14 +58,26 @@ const Formation = () => {
             </TabList>
             <TabPanels>
               <TabPanel>
-                <P>
-                  
-                </P>
+                <List>
+                  <ListItem textAlign="center" p={2}><Text as="u">Enseignements de spécialité (SLAM OU SISR) :</Text> 2 modules uniquement au second semestre</ListItem>
+                  <ListItem textAlign="center" p={2}><Text as="u">Enseignements communs :</Text> 4 modules au 1er semestre puis 2 au second semestre</ListItem>
+                  <ListItem textAlign="center" p={2}>Projets personnels et encadrés (PPE)</ListItem>
+                  <ListItem textAlign="center" p={2}>Culture générale et expression</ListItem>
+                  <ListItem textAlign="center" p={2}>Anglais</ListItem>
+                  <ListItem textAlign="center" p={2}>Algorithme et mathématique de l'informatique</ListItem>
+                  <ListItem textAlign="center" p={2}>Analyse économique, managériale et juridiques des services informatiques</ListItem>
+                </List>
               </TabPanel>
               <TabPanel>
-                <P>
-
-                </P>
+                <List>
+                  <ListItem textAlign="center" p={2}><Text as="u">Enseignements de spécialité (SLAM ou SISR) :</Text> 3 modules</ListItem>
+                  <ListItem textAlign="center" p={2}><Text as="u">Enseignements cummuns :</Text> 1 module de gestion de projet</ListItem>
+                  <ListItem textAlign="center" p={2}>Projets personnels et encadrés (PPE)</ListItem>
+                  <ListItem textAlign="center" p={2}>Culture générale et expression</ListItem>
+                  <ListItem textAlign="center" p={2}>Anglais</ListItem>
+                  <ListItem textAlign="center" p={2}>Mathématique de l'informatique</ListItem>
+                  <ListItem textAlign="center" p={2}>Analyse économique, managériale et juridiques des services informatiques</ListItem>
+                </List>
               </TabPanel>
             </TabPanels>
           </Tabs>
