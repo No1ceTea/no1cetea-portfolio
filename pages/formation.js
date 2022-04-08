@@ -1,4 +1,4 @@
-import { Container, Heading, List, ListIcon, ListItem, Text } from '@chakra-ui/react'
+import { Container, Heading, List, ListItem, Text } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section' 
 import P from '../components/paragraph'
