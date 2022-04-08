@@ -107,7 +107,7 @@ const Veilleinformationnelle = () => {
             <WorkImage src="images/FlareAIO.png" />
             <P>
             Les langages les plus utilisés pour créer ces bots ou script sont le Python, C++, C# ou encore Ruby et Java/Javascript.
-            Le bot est programé de façon à automatisé et passer devant tout le monde lors de votre achat.
+            Le bot est programé de façon à automatisé et à être le plus rapide pour acheter la paire.
             il va donc automatisé votre requête qui se modifie selon le produit que vous chercher, passera sous proxy, remplira les formulaires
             de paiement automatiquement et finalisera votre achat en seulement quelques secondes.
             </P>

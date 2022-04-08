@@ -13,6 +13,7 @@ const Work = () => (
       <P>
         Application qui imite les applications bancaires. Nous pouvons créer un compte et le modifier
         ou le supprimer, ce qui affecte directement la base de données qui est connecter à cette application.
+        Nous pouvons également débiter un créditer un compte, ainsi que modifier son découvert.
       </P>
       <List ml={4} my={4}>
         <ListItem>

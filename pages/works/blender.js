@@ -10,8 +10,8 @@ const Work = () => (
         Modélisation 3D avec Blender <Badge>2019</Badge>
       </Title>
       <P>
-        Pour mon loisir, j'ai commencé à apprendre à utiliser blender pour apprendre la modélisation 3D
-        et voici les résultats !
+        Pour mon loisir, j'ai commencé à apprendre à utiliser blender pour apprendre la modélisation 3D.
+        Vous pouvez retrouver quelque rendu ici !
       </P>
 
       <List ml={4} my={4}>
