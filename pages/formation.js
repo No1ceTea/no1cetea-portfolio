@@ -82,7 +82,6 @@ const Formation = () => {
             </TabPanels>
           </Tabs>
 
-
         </Section>
       </Container>
     </Layout>

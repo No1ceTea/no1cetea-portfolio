@@ -13,7 +13,7 @@ const Work = () => (
         Site effectuer lors de mon stage de première année. 
         Il permet pour les propriétaires du bâtiment Montriond situé
         à Créteil d'avoir un accès au information des prestataires, 
-        accès au live pour les réunions et les dernières actualités lié au bâtiment.
+        accès au live pour assister au réunion avec un LiveChat et les dernières actualités lié au bâtiment.
         Il est connecter à une base de données qui contient les prestaires ainsi que les propriétaires
         pour qu'il puisse se connecter grâce à leurs identifiant client.
       </P>
