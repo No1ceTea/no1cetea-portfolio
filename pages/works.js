@@ -8,9 +8,10 @@ import thumbAstro from '../public/images/AstroThai1.png'
 import thumbBank from '../public/images/bank1.png'
 import thumbCandy from '../public/images/bonbonweb.png'
 import thumbSicilyLines from '../public/images/Accueil_Réservation.png'
-import thumbblackbot from '../public/images/blackbotscript.png'
+import thumbBlackbot from '../public/images/blackbotscript.png'
 import thumbMontriond from '../public/images/montriond.png'
-import thumbrcvb from '../public/images/rcvb1.png'
+import thumbRcvb from '../public/images/rcvb1.png'
+import thumbBladescripts from '../public/images/bladescripts.jpg'
 
 const Works = () => {
   return (
@@ -55,20 +56,27 @@ const Works = () => {
           </Section>
 
           <Section>
-            <WorkGridItem id="blackbot" title="BlackBot.me" thumbnail={thumbblackbot}>
+            <WorkGridItem id="blackbot" title="BlackBot.me" thumbnail={thumbBlackbot}>
               Projet personnel, site de vente pour vendre une formation sur le développement des bots.
             </WorkGridItem>
           </Section>
 
           <Section>
-            <WorkGridItem id="rcvb" title="Rugby Club Val de Bièvre" thumbnail={thumbrcvb}>
+            <WorkGridItem id="bladescripts" title="Blade Scripts" thumbnail={thumbBladescripts}>
+              Projet personnel, Blade scripts est une extention google qui permet d'automatiser l'achat de produit.
+              Blade Scripts est actuellement en Beta.
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem id="rcvb" title="Rugby Club Val de Bièvre" thumbnail={thumbRcvb}>
               Site mise à jour pour le club de rugby du Val de Bièvre lors de mon stage de seconde année.
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem id="sicilylines" title="Sicily-Lines" thumbnail={thumbSicilyLines}>
-              Site web et application lourde permettant de faire des resérvations de bateau en Siclily.
+              Site web et application lourde permettant de faire des resérvations de bateau en Siclile.
             </WorkGridItem>
           </Section>
 
