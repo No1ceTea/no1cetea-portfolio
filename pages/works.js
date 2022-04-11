@@ -10,6 +10,7 @@ import thumbCandy from '../public/images/bonbonweb.png'
 import thumbSicilyLines from '../public/images/Accueil_Réservation.png'
 import thumbblackbot from '../public/images/blackbotscript.png'
 import thumbMontriond from '../public/images/montriond.png'
+import thumbrcvb from '../public/images/rcvb1.png'
 
 const Works = () => {
   return (
@@ -60,7 +61,7 @@ const Works = () => {
           </Section>
 
           <Section>
-            <WorkGridItem id="rcvb" title="Rugby Club Val de Bièvre" thumbnail={thumbBank}>
+            <WorkGridItem id="rcvb" title="Rugby Club Val de Bièvre" thumbnail={thumbrcvb}>
               Site mise à jour pour le club de rugby du Val de Bièvre lors de mon stage de seconde année.
             </WorkGridItem>
           </Section>

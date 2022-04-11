@@ -29,9 +29,12 @@ const Work = () => (
           <span>HTML, CSS, JS, MySQL</span>
         </ListItem>
       </List>
-      
 
-      <WorkImage src="/images/Accueil_Réservation.png" />
+      <WorkImage src="/images/rcvb1.png" />
+      <WorkImage src="/images/rcvb2.png" />
+      <WorkImage src="/images/rcvb3.png" />
+      <WorkImage src="/images/rcvb4.png" />
+
     </Container>
   </Layout>
 )
