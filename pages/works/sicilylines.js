@@ -30,7 +30,7 @@ const Work = () => (
           </P>
         </ListItem>
         <ListItem>
-          <Meta>Application</Meta>
+          <Meta>Source</Meta>
           <Link href="#">
             SicilyLines-Mission1<ExternalLinkIcon mx="2px" />
           </Link>
@@ -56,7 +56,7 @@ const Work = () => (
           </P>
         </ListItem>
         <ListItem>
-          <Meta>Website</Meta>
+          <Meta>Source</Meta>
           <Link href="#">
             SicilyLines-Mission2 <ExternalLinkIcon mx="2px" />
           </Link>
@@ -83,7 +83,7 @@ const Work = () => (
           </P>
         </ListItem>
         <ListItem>
-          <Meta>Application</Meta>
+          <Meta>Source</Meta>
           <Link href="#">
             SicilyLines-Mission3 <ExternalLinkIcon mx="2px" />
           </Link>

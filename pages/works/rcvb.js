@@ -19,8 +19,8 @@ const Work = () => (
       
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="http://club.quomodo.com/rcvb">
+          <Meta>Source</Meta>
+          <Link href="#">
             RCVB <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

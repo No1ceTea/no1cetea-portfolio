@@ -16,7 +16,7 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
+          <Meta>Source</Meta>
           <Link href="#">
             Pas de lien pour le moment <ExternalLinkIcon mx="2px" />
           </Link>
@@ -26,7 +26,7 @@ const Work = () => (
           <span>HTML, CSS</span>
         </ListItem>
         <ListItem>
-          <Meta>Source et inspiration</Meta>
+          <Meta>Inspiration</Meta>
           <Link href="https://www.youtube.com/c/inanutshell">
             In a nutshell <ExternalLinkIcon mx="2px" />
           </Link>

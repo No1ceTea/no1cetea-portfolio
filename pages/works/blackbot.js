@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="BlackBot">
     <Container>
       <Title>
-        BlackBot.me <Badge>2021</Badge>
+        BlackBot.me <Badge>2022</Badge>
       </Title>
       <P>
       BlackBot est un outil qui permet de s'exercer au développement pour avoir les bagages

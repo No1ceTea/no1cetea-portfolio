@@ -27,9 +27,7 @@ const Works = () => {
               Pour mon loisir, j'ai appris à modéliser avec Blender.
             </WorkGridItem>
           </Section>
-        </SimpleGrid>
-
-        <SimpleGrid column={[1, 1, 2]} gap={6}>
+    
           <Section>
             <WorkGridItem id="astro" title="AstroThai" thumbnail={thumbAstro}>
               Création d'un site en html et css avec un sujet ou thème libre.

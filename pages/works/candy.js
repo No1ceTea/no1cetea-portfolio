@@ -16,7 +16,7 @@ const Work = () => (
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
+          <Meta>Source</Meta>
           <Link href="#">
             Pas de lien pour le moment <ExternalLinkIcon mx="2px" />
           </Link>
@@ -27,8 +27,7 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="" alt="Candy00" />
-      <WorkImage src="" alt="Candy01" />
+      <WorkImage src="/images/bonbonweb.png" />
     </Container>
   </Layout>
 )

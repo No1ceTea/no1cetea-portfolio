@@ -115,8 +115,8 @@ const Navbar = props => {
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link} style={{ gap:4 }} ><IoCode /> Projets</MenuItem>
                 </NextLink>
-                <NextLink href="/veilletechnologique" passHref>
-                  <MenuItem as={Link} style={{ gap:4 }}><IoFileTrayStacked /> Veille Technologique</MenuItem>
+                <NextLink href="/veilleinformationnelle" passHref>
+                  <MenuItem as={Link} style={{ gap:4 }}><IoFileTrayStacked /> Veille</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
