@@ -17,17 +17,15 @@ import thumbKodai from '../public/images/kodai.png'
 const veilleinformationnelle = () => (
   <Layout title="Veille informationnelle">
     <Container>
-    <Box
-      borderRadius="lg"
-      mb={6}
-      p={3}
-      textAlign="center"
-      bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-    >
-      <Heading as="h1" fontSize={20}>
-        Bot et Script sneakers
-      </Heading>
-    </Box>
+      <Box
+        borderRadius="lg"
+        mb={6}
+        p={3}
+        textAlign="center"
+        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+      >
+          Bot et Script sneakers
+      </Box>
 
     <Heading as="h3" fontSize={20} mb={8}>
       Pour commencer, qu'est ce qu'une veille informationnelle ?
