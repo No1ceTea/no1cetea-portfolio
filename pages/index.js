@@ -76,8 +76,8 @@ const Home = () => (
           C'est moi
         </Heading>
         <Paragraph>
-        Je m'appelle Thai, j'ai 20 ans et je suis actuellement en seconde année de BTS au{' '}  
-              <Link
+        Je m'appelle Thai, j'ai 20 ans et je suis actuellement en seconde année de BTS au{' '}
+        <Link
               href="https://www.lyceedecachan.fr/"
               scroll={false}
               target="_blank"
