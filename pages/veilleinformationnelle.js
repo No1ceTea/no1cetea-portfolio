@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Box, Button, Popover, PopoverContent, PopoverTrigger, PopoverArrow, PopoverCloseButton, PopoverBody, useColorModeValue } from '@chakra-ui/react'
+import { useColorModeValue, Container, Heading, SimpleGrid, Box, Button, Popover, PopoverContent, PopoverTrigger, PopoverArrow, PopoverCloseButton, PopoverBody } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
