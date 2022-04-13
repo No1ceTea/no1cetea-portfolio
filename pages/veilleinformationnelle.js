@@ -1,4 +1,4 @@
-import { useColorModeValue, Container, Heading, SimpleGrid, Box, Button, Popover, PopoverContent, PopoverTrigger, PopoverArrow, PopoverCloseButton, PopoverBody } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Button, Popover, PopoverContent, PopoverTrigger, PopoverArrow, PopoverCloseButton, PopoverBody } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
@@ -17,15 +17,6 @@ import thumbKodai from '../public/images/kodai.png'
 const veilleinformationnelle = () => (
   <Layout title="Veille informationnelle">
     <Container>
-      <Box
-        borderRadius="lg"
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-      >
-          Bot et Script sneakers
-      </Box>
 
     <Heading as="h3" fontSize={20} mb={8}>
       Pour commencer, qu'est ce qu'une veille informationnelle ?
