@@ -1,9 +1,10 @@
-import { Container, Heading, SimpleGrid, Box, useColorModeValue, Button, Popover, PopoverContent, PopoverTrigger, PopoverArrow, PopoverCloseButton, PopoverBody } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Box, Button, Popover, PopoverContent, PopoverTrigger, PopoverArrow, PopoverCloseButton, PopoverBody } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import P from '../components/paragraph'
 import { WorkImage } from '../components/work'
+import { useColorModeValue } from '@chakra-ui/react'
 
 import thumbClubic from '../public/images/clubic.png'
 import thumbBottravis from '../public/images/BotsTravis.jpg'
@@ -107,7 +108,7 @@ const veilleinformationnelle = () => (
       <P>
         Les bots sont souvent équipés des dernières technologies pour devancer ces concurrents,
         tel que des bypass de queue, d'un Captcha Harverster qui permet de réaliser les captchas en quelques secondes,
-        et d'un support multi-taches.
+        et d'un support multi-taches  .
       </P>
       </P>
     </Section>
