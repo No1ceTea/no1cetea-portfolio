@@ -67,7 +67,10 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/Accueil_Réservation.png" />
+      <WorkImage src="/images/SicilyLinesWeb1.png" />
+      <WorkImage src="/images/SicilyLinesWeb2.png" />
+      <WorkImage src="/images/SicilyLinesWeb3.png" />
+      <WorkImage src="/images/SicilyLinesWeb4.png" />
 
       <List>
         <ListItem>
