@@ -30,8 +30,8 @@ const Work = () => (
           </P>
         </ListItem>
         <ListItem>
-          <Meta>Application</Meta>
-          <Link href="#">
+          <Meta>Source</Meta>
+          <Link href="https://github.com/No1ceTea/SicilyLines-Mission1">
             SicilyLines-Mission1<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -56,8 +56,8 @@ const Work = () => (
           </P>
         </ListItem>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="#">
+          <Meta>Source</Meta>
+          <Link href="https://github.com/No1ceTea/SicilyLines-Mission2">
             SicilyLines-Mission2 <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -83,8 +83,8 @@ const Work = () => (
           </P>
         </ListItem>
         <ListItem>
-          <Meta>Application</Meta>
-          <Link href="#">
+          <Meta>Source</Meta>
+          <Link href="https://github.com/No1ceTea/SicilyLines-Mission3">
             SicilyLines-Mission3 <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>

@@ -13,12 +13,13 @@ const Work = () => (
       <P>
         Site créer pour mettre en pratique nos premières connaissance de première année. Nous avons ici utilisé principalement du PHP
         pour créer des fonctionnalités tel qu'ajouter, modifier ou supprimer des bonbons de la base de données. 
+        Nous pouvons aussi mettre des produits dans un panier où le prix total de tous les produits sont calculer.
       </P>
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Website</Meta>
-          <Link href="#">
-            Pas de lien pour le moment <ExternalLinkIcon mx="2px" />
+          <Meta>Source</Meta>
+          <Link href="https://github.com/No1ceTea/BonbonWeb">
+            CandyShop "Haribo" <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -27,8 +28,9 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="" alt="Candy00" />
-      <WorkImage src="" alt="Candy01" />
+      <WorkImage src="/images/bonbonweb.png" />
+      <WorkImage src="/images/haribo.png" />
+      <WorkImage src="/images/hariboAdmin.png" />
     </Container>
   </Layout>
 )

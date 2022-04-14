@@ -32,7 +32,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        || (This is my Deskop ^^ ) ||
+        || (This is my Deskt op ^^ ) ||
         <br />
         Bonjour, Je suis étudiant en développement informatique en France!
       </Box>
@@ -99,7 +99,7 @@ const Home = () => (
           Projet professionnel
         </Heading>
         <Paragraph>
-          Je souhaite devenir WebMaster / Web développeur (concepteur de site internet) ou chef de projet.
+          Je souhaite devenir WebMaster / Web développeur ou Designer UX / UI.
           Après mon BTS SIO, je souhaite me dirigé dans un cycle ingénieur informatique et management à 
           l'institut G4 à Châtelet.
         </Paragraph>

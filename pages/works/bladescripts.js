@@ -16,7 +16,7 @@ const Work = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="#">
+          <Link href="https://github.com/No1ceTea/BladeScripts">
             Blade Scripts <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
@@ -29,6 +29,7 @@ const Work = () => (
       <WorkImage src="/images/bladescripts.jpg" />
       <WorkImage src="/images/bladescriptsite.jpg" />
       <WorkImage src="/images/bladescriptzalando.png" />
+      <WorkImage src="/images/bladescripts2.jpg" />
     </Container>
   </Layout>
 )
