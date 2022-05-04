@@ -110,10 +110,6 @@ const Home = () => (
           Bio
         </Heading>
         <BioSection>
-          <BioYear>2001</BioYear>
-          Né à Juvisy sur Orge, France.
-        </BioSection>
-        <BioSection>
           <BioYear>2019</BioYear>
           Obtention du BAC technologique STI2D spécialité SIN (Service d'information et numérique)
         </BioSection>
