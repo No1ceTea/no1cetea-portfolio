@@ -81,9 +81,7 @@ const Home = () => (
               href="https://www.lyceedecachan.fr/"
               scroll={false}
               target="_blank"
-              >Lycée Polyvalent de Cachan</Link>
-          . Ce portfolio fut réalisé durant ma seconde année de BTS SIO (Services Informatiques aux Organisation)
-           Option SLAM (Solutions Logicielles et Application Métier).
+              >Lycée Polyvalent de Cachan</Link>.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>

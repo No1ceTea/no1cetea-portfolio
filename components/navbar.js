@@ -16,7 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub, IoCode, IoFileTrayStacked, IoHome, IoBriefcase  } from 'react-icons/io5'
+import { IoLogoGithub, IoCode, IoHome } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -71,14 +71,8 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/formation" path={path} display="inline-flex" alignItems="center" style={{ gap:4 }} pl={2}>
-            <IoBriefcase /> Formation
-          </LinkItem>
           <LinkItem href="/works" path={path} display="inline-flex" alignItems="center" style={{ gap:4 }} pl={2}>
             <IoCode /> Projets
-          </LinkItem>
-          <LinkItem href="/veilleinformationnelle" path={path} display="inline-flex" alignItems="center" style={{ gap:4 }} pl={2}>
-            <IoFileTrayStacked /> Veille
           </LinkItem>
           <LinkItem
             target="_blank"
@@ -109,14 +103,8 @@ const Navbar = props => {
                 <NextLink href="/" passHref>
                   <MenuItem as={Link} style={{ gap:4 }}><IoHome /> Accueil</MenuItem>
                 </NextLink>
-                <NextLink href="formation" passHref>
-                  <MenuItem as={Link} style={{ gap:4 }}><IoBriefcase /> Formation</MenuItem>
-                </NextLink>
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link} style={{ gap:4 }} ><IoCode /> Projets</MenuItem>
-                </NextLink>
-                <NextLink href="/veilleinformationnelle" passHref>
-                  <MenuItem as={Link} style={{ gap:4 }}><IoFileTrayStacked /> Veille</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
