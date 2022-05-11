@@ -8,10 +8,8 @@ import thumbAstro from '../public/images/AstroThai1.png'
 import thumbBank from '../public/images/bank1.png'
 import thumbCandy from '../public/images/bonbonweb.png'
 import thumbSicilyLines from '../public/images/Accueil_Réservation.png'
-import thumbBlackbot from '../public/images/blackbotscript.png'
 import thumbMontriond from '../public/images/montriond.png'
 import thumbRcvb from '../public/images/rcvb1.png'
-import thumbBladescripts from '../public/images/bladescripts.jpg'
 
 const Works = () => {
   return (
@@ -50,19 +48,6 @@ const Works = () => {
             <WorkGridItem id="banque" title="Application banque" thumbnail={thumbBank}>
               Project d'application en C# avec Visual Studio pour imiter les fonctions d'une application
               bancaire.
-            </WorkGridItem>
-          </Section>
-
-          <Section>
-            <WorkGridItem id="blackbot" title="BlackBot.me" thumbnail={thumbBlackbot}>
-              Projet personnel, site de vente pour vendre une formation sur le développement des bots.
-            </WorkGridItem>
-          </Section>
-
-          <Section>
-            <WorkGridItem id="bladescripts" title="Blade Scripts" thumbnail={thumbBladescripts}>
-              Projet personnel, Blade scripts est une extention google qui permet d'automatiser l'achat de produit.
-              Blade Scripts est actuellement en Beta.
             </WorkGridItem>
           </Section>
 
