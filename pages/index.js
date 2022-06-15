@@ -126,7 +126,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Musique, Basket, Beatmaking, Jeux vidéos, Sneakers, Astronomie, automobile
+          Musique, Basket, Beatmaking, Jeux vidéos, Sneakers, Astronomie, Automobile
         </Paragraph>
       </Section>
 
