@@ -112,12 +112,12 @@ const Home = () => (
           Obtention du BAC technologique STI2D spécialité SIN (Service d'information et numérique)
         </BioSection>
         <BioSection>
-          <BioYear>2021</BioYear>
-          Formation en première année de BTS SIO option SLAM
+          <BioYear>2020-2022</BioYear>
+          (En cours) Formation au BTS SIO option SLAM au lycée Polyvalent de Cachan
         </BioSection>
         <BioSection>
-          <BioYear>2022</BioYear>
-          (En cours) Formation en seconde année de BTS SIO option SLAM
+          <bioYear>2022-2025</bioYear>
+          (En cours) Formation au titre RNCP de niveau 7 "Chef de Projet Système d'Information" à l'institut G4 Paris
         </BioSection>
       </Section>
 
@@ -126,7 +126,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Musique, Basket, Beatmaking, Jeux vidéos, Sneakers, Astronomie
+          Musique, Basket, Beatmaking, Jeux vidéos, Sneakers, Astronomie, automobile
         </Paragraph>
       </Section>
 
