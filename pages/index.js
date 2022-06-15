@@ -32,7 +32,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        || (This is my Desktop ^^ ) ||
+        || This is my Desktop  ||
         <br />
         Bonjour, Je suis étudiant en développement informatique en France!
       </Box>
