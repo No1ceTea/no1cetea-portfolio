@@ -116,7 +116,7 @@ const Home = () => (
           (En cours) Formation au BTS SIO option SLAM au lycée Polyvalent de Cachan
         </BioSection>
         <BioSection>
-          <bioYear>2022-2025</bioYear>
+          <BioYear>2022-2025</BioYear>
           (En cours) Formation au titre RNCP de niveau 7 "Chef de Projet Système d'Information" à l'institut G4 Paris
         </BioSection>
       </Section>
