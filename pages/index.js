@@ -113,11 +113,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020-2022</BioYear>
-          (En cours) Formation au BTS SIO option SLAM au lycée Polyvalent de Cachan
+          Formation au BTS SIO option SLAM au lycée Polyvalent de Cachan (Pas d'obtention)
         </BioSection>
         <BioSection>
           <BioYear>2022-2025</BioYear>
-          (En cours) Formation au titre RNCP de niveau 7 "Chef de Projet Système d'Information" à l'institut G4 Paris
+          (En cours) Formation au titre RNCP de niveau 7 "Chef de Projet Système d'Information" à l'Institut G4 Paris
         </BioSection>
       </Section>
 
