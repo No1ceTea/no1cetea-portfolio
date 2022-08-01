@@ -76,12 +76,12 @@ const Home = () => (
           C'est moi
         </Heading>
         <Paragraph>
-        Je m'appelle Thai, j'ai 20 ans et je suis actuellement en seconde année de BTS au{' '}
+        Je m'appelle Thai, j'ai 21 ans et je suis actuellement en première année de cycle ingénieur à{' '}
         <Link
               href="https://www.lyceedecachan.fr/"
               scroll={false}
               target="_blank"
-              >Lycée Polyvalent de Cachan</Link>.
+              >l'Institut G4 de Paris</Link>.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
@@ -98,8 +98,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Je souhaite devenir WebMaster / Web développeur ou Designer UX / UI.
-          Après mon BTS SIO, je souhaite me dirigé dans un cycle ingénieur informatique et management à 
-          l'institut G4 à Châtelet.
+          Je suis actuellement en alternance à l'institut G4 à Paris, et sur un contrat d'apprentissage sur 3 ans à la DSIBA.
         </Paragraph>
       </Section>
 
@@ -113,7 +112,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020-2022</BioYear>
-          Formation au BTS SIO option SLAM au lycée Polyvalent de Cachan (Pas d'obtention)
+          Formation au BTS SIO option SLAM au lycée Polyvalent de Cachan (Non obtenue)
         </BioSection>
         <BioSection>
           <BioYear>2022-2025</BioYear>
