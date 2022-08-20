@@ -117,6 +117,7 @@ const Home = () => (
         <BioSection>
           <BioYear>2022-2025</BioYear>
           (En cours) Formation au titre RNCP de niveau 7 "Chef de Projet Système d'Information" à l'Institut G4 Paris
+          Alternant à la DSIBA
         </BioSection>
       </Section>
 
