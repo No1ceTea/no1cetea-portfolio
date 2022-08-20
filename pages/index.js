@@ -112,7 +112,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020-2022</BioYear>
-          Formation au BTS SIO option SLAM au lycée Polyvalent de Cachan (Non obtenue)
+          Formation au BTS SIO option SLAM au lycée Polyvalent de Cachan (Non obtenu)
         </BioSection>
         <BioSection>
           <BioYear>2022-2025</BioYear>
