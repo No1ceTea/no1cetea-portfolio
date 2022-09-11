@@ -32,9 +32,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        || This is my Desktop  ||
-        <br />
-        Bonjour, Je suis étudiant en développement informatique en France!
+        Hello, I'm a web dev student in France!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -76,7 +74,7 @@ const Home = () => (
           C'est moi
         </Heading>
         <Paragraph>
-        Je m'appelle Thai, j'ai 21 ans et je suis actuellement en première année de cycle ingénieur à{' '}
+        My name is Thai, I'm 21 years old and I'm currently in my first year of engineering cycle at{' '}
         <Link
               href="https://www.lyceedecachan.fr/"
               scroll={false}
@@ -86,7 +84,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Mon portfolio
+              My portfolio
             </Button>
           </NextLink>
         </Box>
@@ -94,11 +92,11 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          Projet professionnel
+          Professional project
         </Heading>
         <Paragraph>
-          Je souhaite devenir WebMaster / Web développeur ou Designer UX / UI.
-          Je suis actuellement en alternance à l'institut G4 à Paris, et sur un contrat d'apprentissage sur 3 ans à la DSIBA.
+          I want to be Web developer or Designer UX / UI or Creative Coder.
+          I'm currently on a work-study program at the Institut G4 in Paris, and on a 3-year apprenticeship contract at the DSIBA.
         </Paragraph>
       </Section>
 
@@ -108,16 +106,16 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2019</BioYear>
-          Obtention du BAC technologique STI2D spécialité SIN (Service d'information et numérique)
+          BAC technologique STI2D speciality SIN (IT and Digital Service)
         </BioSection>
         <BioSection>
           <BioYear>2020-2022</BioYear>
-          Formation au BTS SIO option SLAM au lycée Polyvalent de Cachan (Non obtenu)
+          BTS SIO option SLAM au lycée Polyvalent de Cachan (Not obtained)
         </BioSection>
         <BioSection>
           <BioYear>2022-2025</BioYear>
-          (En cours) Formation au titre RNCP de niveau 7 "Chef de Projet Système d'Information" à l'Institut G4 Paris
-          Alternant à la DSIBA
+          (En cours) Title RNCP level 7 "Information system project manager" in Institut G4 Paris
+          Apprenticeship in DSIBA
         </BioSection>
       </Section>
 
@@ -126,13 +124,13 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Musique, Basket, Beatmaking, Jeux vidéos, Sneakers, Astronomie, Automobile
+          Music, Basket, Beatmaking, Video games, Sneakers, Astronomy, Automobile
         </Paragraph>
       </Section>
 
       <Section delay={0.7}>
         <Heading as="h3" variant="section-title">
-          Réseaux sociaux
+          On the web
         </Heading>
         <List>
           <ListItem>
