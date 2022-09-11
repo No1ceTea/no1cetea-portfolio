@@ -79,7 +79,7 @@ const Home = () => (
               href="https://www.lyceedecachan.fr/"
               scroll={false}
               target="_blank"
-              >l'Institut G4 de Paris</Link>.
+              >Institut G4 in Paris</Link>.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
