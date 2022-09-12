@@ -28,38 +28,37 @@ const Works = () => {
     
           <Section>
             <WorkGridItem id="astro" title="AstroThai" thumbnail={thumbAstro}>
-              Création d'un site en html et css avec un sujet ou thème libre.
+              My first Website develop with HTML5 and CCS3.
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem id="candy" title="Site de bonbon 'Haribo'" thumbnail={thumbCandy}>
-              Site marchand de bonbon pour mettre en pratique nos connaissance en PHP.
+              Candy merchant site to learn PHP.
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem id="montriond" title="Sdcmontriond" thumbnail={thumbMontriond}>
-              Site web pour la diffusion es information pour le batiment Montriond situé à Créteil.
+              Website for news from the Créteil condominium for a traineeship.
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem id="banque" title="Application banque" thumbnail={thumbBank}>
-              Project d'application en C# avec Visual Studio pour imiter les fonctions d'une application
-              bancaire.
+              Application project in C# to imitate the functionality of a banking application.
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem id="rcvb" title="Rugby Club Val de Bièvre" thumbnail={thumbRcvb}>
-              Site mise à jour pour le club de rugby du Val de Bièvre lors de mon stage de seconde année.
+              Website update for the club of rugby at Val de Bièvre for a traineeship.
             </WorkGridItem>
           </Section>
 
           <Section>
             <WorkGridItem id="sicilylines" title="Sicily-Lines" thumbnail={thumbSicilyLines}>
-              Site web et application lourde permettant de faire des resérvations de bateau en Siclile.
+              Website and heavy app for making boat reservations.
             </WorkGridItem>
           </Section>
 
