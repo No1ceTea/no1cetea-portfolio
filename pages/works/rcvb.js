@@ -11,10 +11,9 @@ const Work = () => (
         RCVB <Badge>2022</Badge>
       </Title>
       <P>
-      Site pour ma seconde année de stage, développer et mettre en place un site web pour une association 
-      de rugby. Elle met à jour l'ancien site et comporte plus de sécurité en vue des nouvelles 
-      fonctionnalités intégrés au site tel que l'inscription des nouveaux adhérents avec une base de données 
-      et la gestion de ses adhérents.
+        Website for my second year of internship, developing and setting up a website for a rugby association. 
+        It updates the old site and includes more security for the new features integrated into the site such as
+        the registration of new members with a database and the management of its members.
       </P>
       
       <List ml={4} my={4}>

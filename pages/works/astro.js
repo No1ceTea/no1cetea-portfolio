@@ -11,14 +11,14 @@ const Work = () => (
         AstroThai <Badge>2020</Badge>
       </Title>
       <P>
-        Tout premier site créer pour pratiquer du HTML et du CSS.
-        Inspirer par les vidéos de <Link href="https://www.youtube.com/c/inanutshell">Kurzgesagt</Link>.
+        First website create with HTML5 and CSS3.
+        Inspired by<Link href="https://www.youtube.com/c/inanutshell">Kurzgesagt</Link>.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Source</Meta>
-          <Link href="#">
-            Pas de lien pour le moment <ExternalLinkIcon mx="2px" />
+          <Link href="https://github.com/No1ceTea/AstroThai">
+            Github<ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>

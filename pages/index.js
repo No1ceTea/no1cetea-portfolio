@@ -71,7 +71,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          C'est moi
+          Me as a Developer
         </Heading>
         <Paragraph>
         My name is Thai, I'm 21 years old and I'm currently in my first year of engineering cycle at{' '}

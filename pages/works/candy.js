@@ -11,9 +11,9 @@ const Work = () => (
         CandyShop "Haribo" <Badge>2021</Badge>
       </Title>
       <P>
-        Site créer pour mettre en pratique nos premières connaissance de première année. Nous avons ici utilisé principalement du PHP
-        pour créer des fonctionnalités tel qu'ajouter, modifier ou supprimer des bonbons de la base de données. 
-        Nous pouvons aussi mettre des produits dans un panier où le prix total de tous les produits sont calculer.
+        Website created to use all the knowledge we have in the first year.
+        We can add, edit and remove candy of the database.
+        You can also add and see all the product you added to the basket.
       </P>
       <List ml={4} my={4}>
         <ListItem>

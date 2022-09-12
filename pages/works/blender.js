@@ -1,4 +1,4 @@
-import { Container, Badge, List, ListItem } from '@chakra-ui/react'
+import { Container, Badge, List, ListItem, Link } from '@chakra-ui/react'
 import { Title, Meta, WorkImage } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -7,13 +7,12 @@ const Work = () => (
   <Layout title="Blender">
     <Container>
       <Title>
-        Modélisation 3D avec Blender <Badge>2019</Badge>
+        Modelization with Blender <Badge>2019</Badge>
       </Title>
       <P>
-        Pour mon loisir, j'ai commencé à apprendre à utiliser blender pour apprendre la modélisation 3D.
-        Vous pouvez retrouver quelque rendu ici !
+        I learn how to use Blender to re-create some work of 
+        <Link href="https://www.youtube.com/c/PolygonRunway" scroll={false} target="_blank">PolygonRunway</Link>.      
       </P>
-
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Images</Meta>

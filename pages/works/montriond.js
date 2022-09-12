@@ -10,12 +10,11 @@ const Work = () => (
       <Title>Montriond <Badge>2021</Badge>
       </Title>
       <P>
-        Site effectuer lors de mon stage de première année. 
-        Il permet pour les propriétaires du bâtiment Montriond situé
-        à Créteil d'avoir un accès au information des prestataires, 
-        accès au live pour assister au réunion avec un LiveChat et les dernières actualités lié au bâtiment.
-        Il est connecter à une base de données qui contient les prestaires ainsi que les propriétaires
-        pour qu'il puisse se connecter grâce à leurs identifiant client.
+        Website create for my first traineeship.
+        In use for the owner of the condominium at Créteil,
+        It allows access through a connection space to all the latest information concerning the co-ownership 
+        as well as an updated list of the numbers to contact in the event of a problem.  
+        There is also a live space for meetings with real-time chat.
       </P>
       <List ml={4} my={4}>
         <ListItem>
