@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Link } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -16,13 +16,13 @@ const Works = () => {
     <Layout>
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          Projets
+          Works
         </Heading>
 
         <SimpleGrid column={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem id="blender" title="Modélisation 3D avec Blender" thumbnail={thumbBlackhole}>
-              Pour mon loisir, j'ai appris à modéliser avec Blender.
+              Learn to use Blender with <Link href="https://www.youtube.com/c/PolygonRunway" scroll={false} target="_blank">PolygonRunway</Link>.
             </WorkGridItem>
           </Section>
     
