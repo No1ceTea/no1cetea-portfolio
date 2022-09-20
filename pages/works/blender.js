@@ -10,7 +10,7 @@ const Work = () => (
         Modelization with Blender <Badge>2019</Badge>
       </Title>
       <P>
-        I learn how to use Blender to re-create some work of 
+        I learn how to use Blender by recreating projects of{' '}
         <Link href="https://www.youtube.com/c/PolygonRunway" scroll={false} target="_blank">PolygonRunway</Link>.      
       </P>
       <List ml={4} my={4}>

@@ -12,7 +12,7 @@ const Work = () => (
       </Title>
       <P>
         First website create with HTML5 and CSS3.
-        Inspired by<Link href="https://www.youtube.com/c/inanutshell">Kurzgesagt</Link>.
+        Inspired by{' '}<Link href="https://www.youtube.com/c/inanutshell">Kurzgesagt</Link>.
       </P>
       <List ml={4} my={4}>
         <ListItem>
