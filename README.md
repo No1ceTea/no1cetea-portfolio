@@ -5,21 +5,21 @@
 
 ## Stack
 
-- [Next.js](https://nextjs.org/) -  Un framework React avec des rendus serveurs et rendements hybrides statique, etc.
-- [Chakra UI](https://chakra-ui.com/) - Une librairie modulaire et accessible de composant pour React
-- [Three.js](https://threejs.org/) - Librairie 3D pour javascript
-- [Framer Motion](https://www.framer.com/motion/) - Librairie d'amination pour React
+- [Next.js](https://nextjs.org/) -  A React framework with hybrid static & server rendering, and route pre-fetching, etc.
+- [Chakra UI](https://chakra-ui.com/) -  A simple, modular and accessible component library for React
+- [Three.js](https://threejs.org/) - 3D library for JavaScript
+- [Framer Motion](https://www.framer.com/motion/) - An animation library for React
 
 ## Structure du projet
 
 ```
 $PROJECT_ROOT
-│   # Repertoire pages
+│   # Page files
 ├── pages
-│   # Repertoire de composant React
+│   # React component files
 ├── components
 │   # Non-react modules
 ├── lib
-│   # Repertoire Statique pour les images et le modèle 3d
+│   # Static files for images and 3d model file
 └── public
 ```
