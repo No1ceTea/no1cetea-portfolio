@@ -1,3 +1,4 @@
+import { forwardRef } from 'react'
 import Logo from './logo'
 import NextLink from 'next/link'
 import {
@@ -16,25 +17,30 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub, IoCode, IoHome } from 'react-icons/io5'
+import { IoLogoGithub } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
-  const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
+  const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
   return (
-    <NextLink href={href} passHref scroll={false}>
-      <Link
-        p={2}
-        bg={active ? 'grassTeal' : undefined}
-        color={active ? '#202023' : inactiveColor}
-        target={target}
-        {...props}
-      >
-        {children}
-      </Link>
-    </NextLink>
+    <Link
+      as={NextLink}
+      href={href}
+      scroll={false}
+      p={2}
+      bg={active ? 'grassTeal' : undefined}
+      color={active ? '#202023' : inactiveColor}
+      target={target}
+      {...props}
+    >
+      {children}
+    </Link>
   )
 }
+
+const MenuLink = forwardRef((props, ref) => (
+  <Link ref={ref} as={NextLink} {...props} />
+))
 
 const Navbar = props => {
   const { path } = props
@@ -46,7 +52,7 @@ const Navbar = props => {
       w="100%"
       bg={useColorModeValue('#ffffff40', '#20202380')}
       css={{ backdropFilter: 'blur(10px)' }}
-      zIndex={1}
+      zIndex={2}
       {...props}
     >
       <Container
@@ -71,12 +77,15 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path} display="inline-flex" alignItems="center" style={{ gap:4 }} pl={2}>
-            <IoCode /> Works
+          <LinkItem href="/works" path={path}>
+            Works
+          </LinkItem>
+          <LinkItem href="/keyboard" path={path}>
+            Keyboard
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/No1ceTea"
+            href="https://github.com/No1ceTea/no1cetea-portfolio"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -100,20 +109,20 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link} style={{ gap:4 }}><IoHome /> Accueil</MenuItem>
-                </NextLink>
-                <NextLink href="/works" passHref>
-                  <MenuItem as={Link} style={{ gap:4 }} ><IoCode /> Projets</MenuItem>
-                </NextLink>
+                <MenuItem as={MenuLink} href="/">
+                  About
+                </MenuItem>
+                <MenuItem as={MenuLink} href="/works">
+                  Works
+                </MenuItem>
+                <MenuItem as={MenuLink} href="/keyboard">
+                  Posts
+                </MenuItem>
                 <MenuItem
                   as={Link}
-                  target="_blank"
-                  href="https://github.com/No1ceTea/Mon-portfolio"
-                  style= {{ gap:4 }}
+                  href="https://github.com/No1ceTea/no1cetea-portfolio"
                 >
-                  <IoLogoGithub />
-                  Source
+                  View Source
                 </MenuItem>
               </MenuList>
             </Menu>

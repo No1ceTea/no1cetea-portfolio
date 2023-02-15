@@ -66,10 +66,10 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/SicilyLinesWeb1.png" />
-      <WorkImage src="/images/SicilyLinesWeb2.png" />
-      <WorkImage src="/images/SicilyLinesWeb3.png" />
-      <WorkImage src="/images/SicilyLinesWeb4.png" />
+      <WorkImage src="/images/works/SicilyLinesWeb1.png" />
+      <WorkImage src="/images/works/SicilyLinesWeb2.png" />
+      <WorkImage src="/images/works/SicilyLinesWeb3.png" />
+      <WorkImage src="/images/works/SicilyLinesWeb4.png" />
 
       <List>
         <ListItem>

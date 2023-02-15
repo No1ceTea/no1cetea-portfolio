@@ -20,14 +20,14 @@ const Work = () => (
       </List>
       
       
-      <WorkImage src="/images/BlackHole_V1.png" />
-      <WorkImage src="/images/BlackHole_V2.png" />
-      <WorkImage src="/images/Lowpolygarden.png" />
-      <WorkImage src="/images/Kitchen.png" />
-      <WorkImage src="/images/Bedroom.png" />
-      <WorkImage src="/images/Sushi.png" />
-      <WorkImage src="/images/Island.png" />
-      <WorkImage src="/images/Forestroad.png" />
+      <WorkImage src="/images/works/BlackHole_V1.png" />
+      <WorkImage src="/images/works/BlackHole_V2.png" />
+      <WorkImage src="/images/works/Lowpolygarden.png" />
+      <WorkImage src="/images/works/Kitchen.png" />
+      <WorkImage src="/images/works/Bedroom.png" />
+      <WorkImage src="/images/works/Sushi.png" />
+      <WorkImage src="/images/works/Island.png" />
+      <WorkImage src="/images/works/Forestroad.png" />
 
     </Container>
   </Layout>

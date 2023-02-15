@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="CandyShop">
     <Container>
       <Title>
-        CandyShop "Haribo" <Badge>2021</Badge>
+        CandyShop &quot;Haribo&quot; <Badge>2021</Badge>
       </Title>
       <P>
         Website created to use all the knowledge we have in the first year.
@@ -19,7 +19,7 @@ const Work = () => (
         <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/No1ceTea/BonbonWeb">
-            CandyShop "Haribo" <ExternalLinkIcon mx="2px" />
+            CandyShop &quot;Haribo&quot; <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -28,9 +28,9 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/bonbonweb.png" />
-      <WorkImage src="/images/haribo.png" />
-      <WorkImage src="/images/hariboAdmin.png" />
+      <WorkImage src="/images/works/bonbonweb.png" />
+      <WorkImage src="/images/works/haribo.png" />
+      <WorkImage src="/images/works/hariboAdmin.png" />
     </Container>
   </Layout>
 )

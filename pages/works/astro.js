@@ -33,9 +33,9 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/AstroThai1.png" alt="astro1" />
-      <WorkImage src="/images/AstroThai2.png" alt="astro2" />
-      <WorkImage src="/images/AstroThai3.png" alt="astro3" />
+      <WorkImage src="/images/works/AstroThai1.png" alt="astro1" />
+      <WorkImage src="/images/works/AstroThai2.png" alt="astro2" />
+      <WorkImage src="/images/works/AstroThai3.png" alt="astro3" />
     </Container>
   </Layout>
 )

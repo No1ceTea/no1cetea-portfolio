@@ -32,7 +32,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I'm a web dev student in France!
+        Hello, I&apos;m a web dev student in France!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -61,9 +61,9 @@ const Home = () => (
             <ProfileImage
               src="/images/thai.jpg"
               alt="Profile image"
-              borderRadius='full'
-              width="100%"
-              height="100%"
+              borderRadius="full"
+              width="100"
+              height="100"
             />
           </Box>
         </Box>
@@ -74,7 +74,7 @@ const Home = () => (
           Me as a Developer
         </Heading>
         <Paragraph>
-        My name is Thai, I'm 21 years old and I'm currently in my first year of engineering cycle at{' '}
+        My name is Thai, I&apos;m 21 years old and I&apos;m currently in my first year of engineering cycle at{' '}
         <Link
               href="https://www.lyceedecachan.fr/"
               scroll={false}
@@ -83,7 +83,13 @@ const Home = () => (
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button
+              as={NextLink}
+              href="/works"
+              scroll={false} 
+              rightIcon={<ChevronRightIcon />} 
+              colorScheme="teal"
+            >
               My portfolio
             </Button>
           </NextLink>
@@ -96,7 +102,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           I want to be Web developer or Designer UX / UI or Creative Coder.
-          I'm currently on a work-study program at the Institut G4 in Paris, and on a 3-year apprenticeship contract at the DSIBA.
+          I&apos;m currently on a work-study program at the Institut G4 in Paris, and on a 3-year apprenticeship contract at the DSIBA.
         </Paragraph>
       </Section>
 
@@ -114,7 +120,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022-2025</BioYear>
-          (En cours) Title RNCP level 7 "Information system project manager" in Institut G4 Paris
+          (En cours) Title RNCP level 7 &quot;Information system project manager&quot; in Institut G4 Paris
           Apprenticeship in DSIBA
         </BioSection>
       </Section>

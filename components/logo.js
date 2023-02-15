@@ -26,8 +26,7 @@ const Logo = () => {
   const footPrintImg = `/images/IconThai${useColorModeValue('', '')}.jpg`
 
   return (
-    <Link href="/" scroll={false}>
-      <a>
+    (<Link href="/" scroll={false}>
         <LogoBox>
           <Image src={footPrintImg} width={20} height={20} alt="logo" />
           <Text
@@ -39,8 +38,7 @@ const Logo = () => {
             Jacquot Thai
           </Text>
         </LogoBox>
-      </a>
-    </Link>
+    </Link>)
   )
 }
 

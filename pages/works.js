@@ -3,13 +3,13 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbBlackhole from '../public/images/BlackHole_V2.png'
-import thumbAstro from '../public/images/AstroThai1.png'
-import thumbBank from '../public/images/bank1.png'
-import thumbCandy from '../public/images/bonbonweb.png'
-import thumbSicilyLines from '../public/images/Accueil_Réservation.png'
-import thumbMontriond from '../public/images/montriond.png'
-import thumbRcvb from '../public/images/rcvb1.png'
+import thumbBlackhole from '../public/images/works/BlackHole_V2.png'
+import thumbAstro from '../public/images/works/AstroThai1.png'
+import thumbBank from '../public/images/works/bank1.png'
+import thumbCandy from '../public/images/works/bonbonweb.png'
+import thumbSicilyLines from '../public/images/works/Accueil_Réservation.png'
+import thumbMontriond from '../public/images/works/montriond.png'
+import thumbRcvb from '../public/images/works/rcvb1.png'
 
 const Works = () => {
   return (

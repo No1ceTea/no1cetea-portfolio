@@ -29,10 +29,10 @@ const Work = () => (
         </ListItem>
       </List>
 
-      <WorkImage src="/images/rcvb1.png" />
-      <WorkImage src="/images/rcvb2.png" />
-      <WorkImage src="/images/rcvb3.png" />
-      <WorkImage src="/images/rcvb4.png" />
+      <WorkImage src="/images/works/rcvb1.png" />
+      <WorkImage src="/images/works/rcvb2.png" />
+      <WorkImage src="/images/works/rcvb3.png" />
+      <WorkImage src="/images/works/rcvb4.png" />
 
     </Container>
   </Layout>
