@@ -25,6 +25,7 @@ const VoxelMydesk= () => {
   const [_controls, setControls] = useState()
 
   const handleWindowResize = useCallback(() => {
+    const { current: renderer } = refRenderer
     const { current: container } = refContainer
     if (container && renderer) {
       const scW = container.clientWidth
@@ -32,7 +33,7 @@ const VoxelMydesk= () => {
 
       renderer.setSize(scW, scH)
     }
-  }, [renderer])
+  }, [])
 
   /* eslint-disable react-hooks/exhaustive-deps */
   useEffect(() => {
