@@ -11,8 +11,8 @@ const Work = () => (
         AstroThai <Badge>2020</Badge>
       </Title>
       <P>
-        First website create with HTML5 and CSS3.
-        Inspired by{' '}<Link href="https://www.youtube.com/c/inanutshell">Kurzgesagt</Link>.
+        Premier site créé avec HTML5, CSS3 et Bootstrap.
+        Inspiré par{' '}<Link href="https://www.youtube.com/c/inanutshell">Kurzgesagt</Link>.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -23,7 +23,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>HTML, CSS</span>
+          <span>HTML, CSS, Bootstrap</span>
         </ListItem>
         <ListItem>
           <Meta>Inspiration</Meta>

@@ -11,20 +11,20 @@ const Work = () => (
         CandyShop &quot;Haribo&quot; <Badge>2021</Badge>
       </Title>
       <P>
-        Website created to use all the knowledge we have in the first year.
-        We can add, edit and remove candy of the database.
-        You can also add and see all the product you added to the basket.
+      Site créé pour utiliser toutes les connaissances que nous avons dans la première année de BTS.
+      Nous pouvons ajouter, modifier et supprimer des bonbons de la base de données.
+      Vous pouvez également ajouter et voir tous les produits que vous avez ajoutés au panier.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/No1ceTea/BonbonWeb">
-            CandyShop &quot;Haribo&quot; <ExternalLinkIcon mx="2px" />
+            Github <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>HTML, CSS, JS, PHP</span>
+          <span>HTML, CSS, Bootstrap, JS, PHP, MySQL, PHPMyAdmin</span>
         </ListItem>
       </List>
 

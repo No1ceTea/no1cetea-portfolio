@@ -32,7 +32,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Hello, I&apos;m a web dev student in France!
+        Bonjour, je suis étudiant en développement web et application en France !
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -40,7 +40,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Jacquot Thai
           </Heading>
-          <p>Student ( Developer )</p>
+          <p>Étudiant ( Développeur )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -74,12 +74,12 @@ const Home = () => (
           Me as a Developer
         </Heading>
         <Paragraph>
-        My name is Thai, I&apos;m 21 years old and I&apos;m currently in my first year of engineering cycle at{' '}
+        Je m&apos;appelle Thaïl, j&apos;ai 21 ans et je suis actuellement en première année de cycle ingénieur à {' '}
         <Link
               href="https://www.lyceedecachan.fr/"
               scroll={false}
               target="_blank"
-              >Institut G4 in Paris</Link>.
+              >l&apos;nstitut G4 à paris</Link>.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
@@ -90,7 +90,7 @@ const Home = () => (
               rightIcon={<ChevronRightIcon />} 
               colorScheme="teal"
             >
-              My portfolio
+              Mon portfolio
             </Button>
           </NextLink>
         </Box>
@@ -101,8 +101,8 @@ const Home = () => (
           Professional project
         </Heading>
         <Paragraph>
-          I want to be Web developer or Designer UX / UI or Creative Coder.
-          I&apos;m currently on a work-study program at the Institut G4 in Paris, and on a 3-year apprenticeship contract at the DSIBA.
+        Je souhaite devenir développeur Web ou Designer UX/UI ou Creative Coder.
+        Je suis actuellement en alternance à l&apos;Institut G4 à Paris, et en contrat d&apos;apprentissage de 3 ans à la DSIBA.
         </Paragraph>
       </Section>
 
@@ -112,16 +112,16 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2019</BioYear>
-          BAC technologique STI2D speciality SIN (IT and Digital Service)
+          BAC technologique STI2D spécialité SIN (Service Informatique et Numérique)
         </BioSection>
         <BioSection>
           <BioYear>2020-2022</BioYear>
-          BTS SIO option SLAM au lycée Polyvalent de Cachan (Not obtained)
+          BTS SIO option SLAM au lycée Polyvalent de Cachan (Non obtenu)
         </BioSection>
         <BioSection>
           <BioYear>2022-2025</BioYear>
-          (En cours) Title RNCP level 7 &quot;Information system project manager&quot; in Institut G4 Paris
-          Apprenticeship in DSIBA
+          (En cours) Titre RNCP niveau 7 &quot;Chef de projet système d&apos;information&quot; à l&apos;Institut G4 Paris
+          Étant en contrat d&apos;apprentissage, je travaille actuellement pour la DSIBA à La Banque Postale
         </BioSection>
       </Section>
 
@@ -130,7 +130,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Music, Basket, Beatmaking, Video games, Sneakers, Astronomy, Automobile
+          Musique, Basket, Football, Sneakers, Astronomie, Automobile, Jeu vidéo
         </Paragraph>
       </Section>
 

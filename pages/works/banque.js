@@ -11,8 +11,9 @@ const Work = () => (
         Bank <Badge>2021</Badge>
       </Title>
       <P> 
-        Application that imitates banking applications. We can create an account and modify or delete it, which directly affects the database that is connected to this application. 
-        We can also debit or credit an account, as well as modify its overdraft.
+        Application qui imite les applications bancaires.
+        Nous pouvons créer un compte et le modifier ou le supprimer, ce qui affecte directement la base de données qui est connectée à cette application.
+        Nous pouvons également débiter ou créditer un compte, ainsi que modifier son découvert.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -23,7 +24,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>C#, Java, PHP</span>
+          <span>C#, Java, MySQL, PHPMyAdmin</span>
         </ListItem>
       </List>
 

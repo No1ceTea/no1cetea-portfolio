@@ -11,10 +11,10 @@ const Work = () => (
         SicilyLines <Badge>2022</Badge>
       </Title>
       <P>
-        Project divided into 3 missions, SicilyLines missions highlight our skills in Symfony and C#.
+      Projet divisé en 3 missions, les missions SicilyLines mettent en avant nos compétences en Symfony et C#.
         <P>
-          SicilyLines is a boat booking platform that allows the customer 
-          to book their boat online and in advance according to the availability recorded on the database.
+        SicilyLines est une plateforme de réservation de bateaux qui permet au client
+        de réserver leur bateau en ligne et à l&apos;avance en fonction des disponibilités enregistrées sur la base de données.
         </P>
       </P>
       <List ml={4} my={4}>
@@ -22,11 +22,11 @@ const Work = () => (
           <Meta>Mission 1</Meta>
         </ListItem>
         <ListItem>
-          <Meta>Objective</Meta>
+          <Meta>Objectif</Meta>
           <P>
-            The first mission consists in analyzing the need, developing the various diagrams and finally, 
-            developing a graphical interface in C# which will allow the administrator to be able to make modifications to the entire file, 
-            delete links, insert new links and modify the bond duration.
+            La première mission consiste à analyser le besoin, élaborer les différents schémas et enfin,
+            développer une interface graphique en C# qui permettra à l&apos;administrateur de pouvoir apporter des modifications à l&apos;ensemble du fichier,
+            supprimer des liens, insérer de nouveaux liens et modifier la durée du lien.
           </P>
         </ListItem>
         <ListItem>
@@ -48,10 +48,10 @@ const Work = () => (
           <Meta>Mission 2</Meta>
         </ListItem>
         <ListItem>
-          <Meta>Objective</Meta>
+          <Meta>Objectif</Meta>
           <P>
-            The second mission consists in developing a new dynamic website and includes the following functionalities: 
-            The search for crossings, the creation of a customer account, online reservations and the contact service.
+            La seconde mission consiste à développer un nouveau site web dynamique et comprend les fonctionnalités suivantes :
+            La recherche de traversées, la création d&apos;un compte client, les réservations en ligne et le service contact.
           </P>
         </ListItem>
         <ListItem>
@@ -78,9 +78,9 @@ const Work = () => (
         <ListItem>
           <Meta>Objective</Meta>
           <P>      
-            The third mision consists of developing a graphical interface in C# so that the administrator of SicilyLines can easily manage the data used. 
-            The administrator can display the tables links in full, can delete, insert and modify the links.
-            The administrator can also display the tariffs and modify a tariff for a link.
+            La troisième mission consiste à développer une interface graphique en C# afin que l&apos;administrateur de SicilyLines puisse gérer facilement les données utilisées.
+            L&apos;administrateur peut afficher les liens des tables en entier, peut supprimer, insérer et modifier les liens.
+            L&apos;administrateur peut également afficher les tarifs et modifier un tarif pour une liaison.
           </P>
         </ListItem>
         <ListItem>

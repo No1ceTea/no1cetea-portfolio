@@ -10,11 +10,11 @@ const Work = () => (
       <Title>Montriond <Badge>2021</Badge>
       </Title>
       <P>
-        Website create for my first traineeship.
-        In use for the owner of the condominium at Créteil,
-        It allows access through a connection space to all the latest information concerning the co-ownership 
-        as well as an updated list of the numbers to contact in the event of a problem.  
-        There is also a live space for meetings with real-time chat.
+        Site créé pour mon premier stage.
+        En usage pour le propriétaire de la copropriété à Créteil, ainsi que ces habitants.
+        Il permet d&apos;accéder via un espace de connexion à toutes les dernières informations concernant la copropriété.
+        Ainsi qu&apos;une liste actualisée des numéros à contacter en cas de problème.
+        Il y a aussi un espace en direct pour les réunions avec chat en temps réel.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -25,7 +25,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>HTML, CSS, JS, PHP</span>
+          <span>HTML, CSS, JS, PHP, MySQL, PHPMyAdmin</span>
         </ListItem>
       </List>
 

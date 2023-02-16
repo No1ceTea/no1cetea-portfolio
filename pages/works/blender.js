@@ -7,10 +7,10 @@ const Work = () => (
   <Layout title="Blender">
     <Container>
       <Title>
-        Modelization with Blender <Badge>2019</Badge>
+       Modélisation 3D avec Blender <Badge>2019</Badge>
       </Title>
       <P>
-        I learn how to use Blender by recreating projects of{' '}
+        J&apos;ai appris à utiliser Blender en recréant des projets de{' '}
         <Link href="https://www.youtube.com/c/PolygonRunway" scroll={false} target="_blank">PolygonRunway</Link>.      
       </P>
       <List ml={4} my={4}>

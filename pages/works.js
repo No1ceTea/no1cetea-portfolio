@@ -21,7 +21,7 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="blender" title="Modélisation 3D avec Blender" thumbnail={thumbBlackhole}>
-            Learn to use Blender with <Link href="https://www.youtube.com/c/PolygonRunway" scroll={false} target="_blank">PolygonRunway</Link>.
+            Apprentissage de Blender avec les vidéos de <Link href="https://www.youtube.com/c/PolygonRunway" scroll={false} target="_blank">PolygonRunway</Link>.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -37,37 +37,37 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.2}>
           <WorkGridItem id="astro" title="AstroThai" thumbnail={thumbAstro}>
-            My first Website develop with HTML5 and CCS3.
+            Mon premier site web développé avec HTLM5, CSS3 et Bootstrap
           </WorkGridItem>
         </Section>
 
         <Section delay={0.2}>
           <WorkGridItem id="candy" title="Site de bonbon 'Haribo'" thumbnail={thumbCandy}>
-            Candy merchant site to learn PHP.
+          Site marchand Candy pour apprendre le PHP
           </WorkGridItem>
         </Section>
 
         <Section delay={0.3}>
           <WorkGridItem id="montriond" title="Sdcmontriond" thumbnail={thumbMontriond}>
-            Website for news from the Créteil condominium for a traineeship.
+            Site d&apos;actualité de la copropriété de Créteil
           </WorkGridItem>
         </Section>
 
         <Section delay={0.3}>
           <WorkGridItem id="banque" title="Application banque" thumbnail={thumbBank}>
-            Application project in C# to imitate the functionality of a banking application.
+          Projet d&apos;application en C# pour imiter les fonctionnalités d&apos;une application bancaire
           </WorkGridItem>
         </Section>
 
         <Section delay={0.4}>
           <WorkGridItem id="rcvb" title="Rugby Club Val de Bièvre" thumbnail={thumbRcvb}>
-            Website update for the club of rugby at Val de Bièvre for a traineeship.
+            Refonte du site internet du club de rugby du Val de Bièvre
           </WorkGridItem>
         </Section>
 
         <Section delay={0.4}>
           <WorkGridItem id="sicilylines" title="Sicily-Lines" thumbnail={thumbSicilyLines}>
-            Website and heavy app for making boat reservations.
+            Site Web et application lourde pour faire des réservations de bateaux
           </WorkGridItem>
         </Section>
       </SimpleGrid>
