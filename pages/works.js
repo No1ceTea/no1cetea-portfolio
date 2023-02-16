@@ -18,7 +18,7 @@ const Works = () => (
         Creation
       </Heading>
 
-      <SimpleGrid column={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="blender" title="Modélisation 3D avec Blender" thumbnail={thumbBlackhole}>
             Learn to use Blender with <Link href="https://www.youtube.com/c/PolygonRunway" scroll={false} target="_blank">PolygonRunway</Link>.
@@ -34,7 +34,7 @@ const Works = () => (
         </Heading>
       </Section>
 
-      <SimpleGrid column={[1, 1, 2]} gap={6}>
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.2}>
           <WorkGridItem id="astro" title="AstroThai" thumbnail={thumbAstro}>
             My first Website develop with HTML5 and CCS3.
