@@ -130,7 +130,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Musique, Basket, Football, Sneakers, Astronomie, Automobile, Jeu vidéo
+          Musique, Clavier custom, Sneakers, Astronomie, Automobile, Jeu vidéo
         </Paragraph>
       </Section>
 
