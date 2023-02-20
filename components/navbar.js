@@ -116,7 +116,7 @@ const Navbar = props => {
                   Works
                 </MenuItem>
                 <MenuItem 
-                  as={MenuLink} 
+                  as={Link} 
                   href="https://no1cetea-keyboard.vercel.app/"
                 >
                   Posts
