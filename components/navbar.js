@@ -80,7 +80,14 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/keyboard" path={path}>
+          <LinkItem 
+            href="https://no1cetea-keyboard.vercel.app/" 
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
             Keyboard
           </LinkItem>
           <LinkItem
