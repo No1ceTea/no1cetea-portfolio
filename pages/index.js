@@ -74,7 +74,7 @@ const Home = () => (
           Me as a Developer
         </Heading>
         <Paragraph>
-        Je m&apos;appelle Thaïl, j&apos;ai 21 ans et je suis actuellement en première année de cycle ingénieur à {' '}
+        Je m&apos;appelle Thai, j&apos;ai 21 ans et je suis actuellement en première année de cycle ingénieur à {' '}
         <Link
               href="https://www.lyceedecachan.fr/"
               scroll={false}
@@ -120,7 +120,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022-2025</BioYear>
-          (En cours) Titre RNCP niveau 7 &quot;Chef de projet système d&apos;information&quot; à l&apos;Institut G4 Paris
+          (En cours d&apos;obtention) Titre RNCP niveau 7 &quot;Chef de projet système d&apos;information&quot; à l&apos;Institut G4 Paris
           Étant en contrat d&apos;apprentissage, je travaille actuellement pour la DSIBA à La Banque Postale
         </BioSection>
       </Section>
