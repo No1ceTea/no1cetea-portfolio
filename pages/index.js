@@ -79,7 +79,7 @@ const Home = () => (
               href="https://www.lyceedecachan.fr/"
               scroll={false}
               target="_blank"
-              >l&apos;nstitut G4 à paris</Link>.
+              >l&apos;Institut G4 à paris</Link>.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
@@ -102,7 +102,8 @@ const Home = () => (
         </Heading>
         <Paragraph>
         Je souhaite devenir développeur Web ou Designer UX/UI ou Creative Coder.
-        Je suis actuellement en alternance à l&apos;Institut G4 à Paris, et en contrat d&apos;apprentissage de 3 ans à la DSIBA.
+        Je suis actuellement en alternance à l&apos;Institut G4 à Paris, et en contrat d&apos;apprentissage de 3 ans à la DSIBA en tant
+        que développeur/concepteur d&apos;application en Java.
         </Paragraph>
       </Section>
 
