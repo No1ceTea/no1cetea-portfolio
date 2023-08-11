@@ -6,7 +6,7 @@ import Footer from '../footer'
 import MydeskLoader from '../voxel-mydesk-loader'
 
 const LazyMydesk = dynamic(() => import('../voxel-mydesk'), {
-  ssr: false,
+  ssr: true,
   loading: () => <MydeskLoader />
 })
 

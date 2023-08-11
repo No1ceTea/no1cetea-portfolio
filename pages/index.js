@@ -74,7 +74,7 @@ const Home = () => (
           Me as a Developer
         </Heading>
         <Paragraph>
-        Je m&apos;appelle Thai, j&apos;ai 21 ans et je suis actuellement en première année de cycle ingénieur à {' '}
+        Je m&apos;appelle Thai, j&apos;ai 22 ans et je suis actuellement en deuxième année de cycle ingénieur à {' '}
         <Link
               href="https://www.lyceedecachan.fr/"
               scroll={false}
@@ -116,7 +116,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020-2022</BioYear>
-          BTS SIO option SLAM au lycée Polyvalent de Cachan (Non obtenu)
+          BTS SIO option SLAM au lycée Polyvalent de Cachan (non obtenu)
+        </BioSection>
+        <BioSection>
+          <BioYear>2022 - 2023</BioYear>
+          Titre RNCP niveau 6 &quot;Concepteur développeur d&apos;applications&quot; à l&apos;Institut G4 Paris (obtenu)
         </BioSection>
         <BioSection>
           <BioYear>2022-2025</BioYear>

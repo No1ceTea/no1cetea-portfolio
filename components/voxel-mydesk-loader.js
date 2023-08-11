@@ -7,7 +7,7 @@ export const MydeskSpinner = () => (
     position="absolute"
     left="50%"
     top="50%"
-    m1="calc(0px - var(--spinner-size) / 2"
+    m1="calc(0px - var(--spinner-size) / 2)"
     mt="calc(0px - var(--spinner-size))"
   />
 )

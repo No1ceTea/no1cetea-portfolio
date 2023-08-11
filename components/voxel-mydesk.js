@@ -25,7 +25,7 @@ const VoxelMydesk= () => {
   const [_controls, setControls] = useState()
 
   const handleWindowResize = useCallback(() => {
-    const { current: renderer } = refRenderer
+    const { current: renderer } = renderer
     const { current: container } = refContainer
     if (container && renderer) {
       const scW = container.clientWidth
