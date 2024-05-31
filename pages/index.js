@@ -32,7 +32,8 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Bonjour, je suis étudiant en développement web et application en France !
+        Bonjour, je suis étudiant en développement web et application en France
+        !
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -56,7 +57,7 @@ const Home = () => (
             h="100px"
             display="inline-block"
             borderRadius="full"
-            overflow='hidden'
+            overflow="hidden"
           >
             <ProfileImage
               src="/images/thai.jpg"
@@ -74,20 +75,24 @@ const Home = () => (
           Me as a Developer
         </Heading>
         <Paragraph>
-        Je m&apos;appelle Thai, j&apos;ai 22 ans et je suis actuellement en deuxième année de cycle ingénieur à {' '}
-        <Link
-              href="https://www.lyceedecachan.fr/"
-              scroll={false}
-              target="_blank"
-              >l&apos;Institut G4 à paris</Link>.
+          Je m&apos;appelle Thai, j&apos;ai 22 ans et je suis actuellement en
+          deuxième année de cycle ingénieur à{' '}
+          <Link
+            href="https://www.lyceedecachan.fr/"
+            scroll={false}
+            target="_blank"
+          >
+            l&apos;Institut G4 à paris
+          </Link>
+          .
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false}>
             <Button
               as={NextLink}
               href="/works"
-              scroll={false} 
-              rightIcon={<ChevronRightIcon />} 
+              scroll={false}
+              rightIcon={<ChevronRightIcon />}
               colorScheme="teal"
             >
               Mon portfolio
@@ -101,9 +106,10 @@ const Home = () => (
           Professional project
         </Heading>
         <Paragraph>
-        Je souhaite devenir développeur Web ou Designer UX/UI ou Creative Coder.
-        Je suis actuellement en alternance à l&apos;Institut G4 à Paris, et en contrat d&apos;apprentissage de 3 ans à la DSIBA en tant
-        que développeur/concepteur d&apos;application en Java.
+          Je souhaite devenir développeur Web ou Designer UX/UI ou Creative
+          Coder. Je suis actuellement en alternance à l&apos;Institut G4 à
+          Paris, et en contrat d&apos;apprentissage de 3 ans à la DSIBA en tant
+          que développeur/concepteur d&apos;application en Java.
         </Paragraph>
       </Section>
 
@@ -113,7 +119,8 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2019</BioYear>
-          BAC technologique STI2D spécialité SIN (Service Informatique et Numérique)
+          BAC technologique STI2D spécialité SIN (Service Informatique et
+          Numérique)
         </BioSection>
         <BioSection>
           <BioYear>2020-2022</BioYear>
@@ -121,12 +128,15 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022 - 2023</BioYear>
-          Titre RNCP niveau 6 &quot;Concepteur développeur d&apos;applications&quot; à l&apos;Institut G4 Paris (obtenu)
+          Titre RNCP niveau 6 &quot;Concepteur développeur
+          d&apos;applications&quot; à l&apos;Institut G4 Paris (obtenu)
         </BioSection>
         <BioSection>
           <BioYear>2022-2025</BioYear>
-          (En cours d&apos;obtention) Titre RNCP niveau 7 &quot;Chef de projet système d&apos;information&quot; à l&apos;Institut G4 Paris
-          Étant en contrat d&apos;apprentissage, je travaille actuellement pour la DSIBA à La Banque Postale
+          (En cours d&apos;obtention) Titre RNCP niveau 7 &quot;Chef de projet
+          système d&apos;information&quot; à l&apos;Institut G4 Paris Étant en
+          contrat d&apos;apprentissage, je travaille actuellement pour la DSIBA
+          à La Banque Postale
         </BioSection>
       </Section>
 

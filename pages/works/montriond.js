@@ -7,14 +7,16 @@ import Layout from '../../components/layouts/article'
 const Work = () => (
   <Layout title="Montriond">
     <Container>
-      <Title>Montriond <Badge>2021</Badge>
+      <Title>
+        Montriond <Badge>2021</Badge>
       </Title>
       <P>
-        Site créé pour mon premier stage.
-        En usage pour le propriétaire de la copropriété à Créteil, ainsi que ces habitants.
-        Il permet d&apos;accéder via un espace de connexion à toutes les dernières informations concernant la copropriété.
-        Ainsi qu&apos;une liste actualisée des numéros à contacter en cas de problème.
-        Il y a aussi un espace en direct pour les réunions avec chat en temps réel.
+        Site créé pour mon premier stage. En usage pour le propriétaire de la
+        copropriété à Créteil, ainsi que ces habitants. Il permet d&apos;accéder
+        via un espace de connexion à toutes les dernières informations
+        concernant la copropriété. Ainsi qu&apos;une liste actualisée des
+        numéros à contacter en cas de problème. Il y a aussi un espace en direct
+        pour les réunions avec chat en temps réel.
       </P>
       <List ml={4} my={4}>
         <ListItem>

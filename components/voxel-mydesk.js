@@ -8,7 +8,7 @@ function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
 }
 
-const VoxelMydesk= () => {
+const VoxelMydesk = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
@@ -123,7 +123,9 @@ const VoxelMydesk= () => {
   }, [renderer, handleWindowResize])
 
   return (
-    <MydeskContainer ref={refContainer}>{loading && <MydeskSpinner />}</MydeskContainer>
+    <MydeskContainer ref={refContainer}>
+      {loading && <MydeskSpinner />}
+    </MydeskContainer>
   )
 }
 

@@ -22,7 +22,6 @@ const Main = ({ children, router }) => {
         <meta property="og:type" content="website" />
         <link rel="icon" type="image/png" href="/images/Hamsterthai.jpg" />
         <title>Home - Jacquot Thai</title>
-
       </Head>
 
       <Navbar path={router.asPath} />
@@ -36,4 +35,4 @@ const Main = ({ children, router }) => {
   )
 }
 
-export default Main 
+export default Main

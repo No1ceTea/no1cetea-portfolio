@@ -11,11 +11,14 @@ const Work = () => (
         RCVB <Badge>2022</Badge>
       </Title>
       <P>
-      Site internet pour ma deuxième année de stage, développement et mise en place d&apos;un site internet pour une association de rugby.
-      Il met au goût du jour l&apos;ancien site et inclut plus de sécurité pour les nouvelles fonctionnalités intégrées au site telles que
-      l&apos;inscription des nouveaux membres auprès d&apos;une base de données et la gestion de ses membres.
+        Site internet pour ma deuxième année de stage, développement et mise en
+        place d&apos;un site internet pour une association de rugby. Il met au
+        goût du jour l&apos;ancien site et inclut plus de sécurité pour les
+        nouvelles fonctionnalités intégrées au site telles que
+        l&apos;inscription des nouveaux membres auprès d&apos;une base de
+        données et la gestion de ses membres.
       </P>
-      
+
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Source</Meta>
@@ -33,7 +36,6 @@ const Work = () => (
       <WorkImage src="/images/works/rcvb2.png" />
       <WorkImage src="/images/works/rcvb3.png" />
       <WorkImage src="/images/works/rcvb4.png" />
-
     </Container>
   </Layout>
 )

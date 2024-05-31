@@ -80,8 +80,8 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem 
-            href="https://no1cekeebs.live/" 
+          <LinkItem
+            href="https://no1cekeebs.live/"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -122,10 +122,7 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
-                <MenuItem 
-                  as={Link} 
-                  href="https://no1cekeebs.live/"
-                >
+                <MenuItem as={Link} href="https://no1cekeebs.live/">
                   Posts
                 </MenuItem>
                 <MenuItem

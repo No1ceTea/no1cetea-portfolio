@@ -11,14 +11,15 @@ const Work = () => (
         AstroThai <Badge>2020</Badge>
       </Title>
       <P>
-        Premier site créé avec HTML5, CSS3 et Bootstrap.
-        Inspiré par{' '}<Link href="https://www.youtube.com/c/inanutshell">Kurzgesagt</Link>.
+        Premier site créé avec HTML5, CSS3 et Bootstrap. Inspiré par{' '}
+        <Link href="https://www.youtube.com/c/inanutshell">Kurzgesagt</Link>.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Source</Meta>
           <Link href="https://github.com/No1ceTea/AstroThai">
-            Github<ExternalLinkIcon mx="2px" />
+            Github
+            <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
