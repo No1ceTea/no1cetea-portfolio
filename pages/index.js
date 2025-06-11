@@ -15,7 +15,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -75,10 +75,10 @@ const Home = () => (
           Me as a Developer
         </Heading>
         <Paragraph>
-          Je m&apos;appelle Thai, j&apos;ai 22 ans et je suis actuellement en
-          deuxième année de cycle ingénieur à{' '}
+          Je m&apos;appelle Thai, j&apos;ai 24 ans et je suis actuellement en
+          troisième année de cycle ingénieur à{' '}
           <Link
-            href="https://www.lyceedecachan.fr/"
+            href="https://institut-g4.fr/"
             scroll={false}
             target="_blank"
           >
@@ -109,7 +109,7 @@ const Home = () => (
           Je souhaite devenir développeur Web ou Designer UX/UI ou Creative
           Coder. Je suis actuellement en alternance à l&apos;Institut G4 à
           Paris, et en contrat d&apos;apprentissage de 3 ans à la DSIBA en tant
-          que développeur/concepteur d&apos;application en Java.
+          que développeur/concepteur d&apos;application en Java et pilote projet IT.
         </Paragraph>
       </Section>
 
@@ -160,17 +160,6 @@ const Home = () => (
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
-              >
-                @No1ceTea
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://twitter.com/No1ceTea" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
               >
                 @No1ceTea
               </Button>

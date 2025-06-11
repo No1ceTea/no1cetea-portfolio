@@ -81,7 +81,7 @@ const Navbar = props => {
             Works
           </LinkItem>
           <LinkItem
-            href="https://no1cekeebs.live/"
+            href="https://no1cetea-keyboard.vercel.app/"
             path={path}
             display="inline-flex"
             alignItems="center"
