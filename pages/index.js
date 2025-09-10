@@ -32,8 +32,8 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Bonjour, je suis étudiant en développement web et application en France
-        !
+        Bonjour, je suis développeur web et application, ainsi que pilote projet
+        IT en France ! Je suis spécialisé en Java, JavaScript et React.js.
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -41,7 +41,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Jacquot Thai
           </Heading>
-          <p>Étudiant ( Développeur )</p>
+          <p>Développeur/Concepteur</p>
         </Box>
         <Box
           flexShrink={0}
@@ -75,29 +75,23 @@ const Home = () => (
           Me as a Developer
         </Heading>
         <Paragraph>
-          Je m&apos;appelle Thai, j&apos;ai 24 ans et je suis actuellement en
+          Je m&apos;appelle Thai, j&apos;ai 24 ans et je viens de terminer ma
           troisième année de cycle ingénieur à{' '}
-          <Link
-            href="https://institut-g4.fr/"
-            scroll={false}
-            target="_blank"
-          >
+          <Link href="https://institut-g4.fr/" target="_blank">
             l&apos;Institut G4 à paris
           </Link>
           .
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" scroll={false}>
-            <Button
-              as={NextLink}
-              href="/works"
-              scroll={false}
-              rightIcon={<ChevronRightIcon />}
-              colorScheme="teal"
-            >
-              Mon portfolio
-            </Button>
-          </NextLink>
+          <Button
+            as={NextLink}
+            href="/works"
+            scroll={false}
+            rightIcon={<ChevronRightIcon />}
+            colorScheme="teal"
+          >
+            Mon portfolio
+          </Button>
         </Box>
       </Section>
 
@@ -107,9 +101,9 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Je souhaite devenir développeur Web ou Designer UX/UI ou Creative
-          Coder. Je suis actuellement en alternance à l&apos;Institut G4 à
-          Paris, et en contrat d&apos;apprentissage de 3 ans à la DSIBA en tant
-          que développeur/concepteur d&apos;application en Java et pilote projet IT.
+          Coder. J&apos;apprend aussi la photographie et pourquoi pas devenir
+          photographe professionnel. Je suis actuellement à la recherche d&apos;un
+          emploi.
         </Paragraph>
       </Section>
 
@@ -133,10 +127,11 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2022-2025</BioYear>
-          (En cours d&apos;obtention) Titre RNCP niveau 7 &quot;Chef de projet
-          système d&apos;information&quot; à l&apos;Institut G4 Paris Étant en
-          contrat d&apos;apprentissage, je travaille actuellement pour la DSIBA
-          à La Banque Postale
+          Titre RNCP niveau 7 &quot;Chef de projet système
+          d&apos;information&quot; à l&apos;Institut G4 paris. (obtenu).
+          J&apos;ai été pendant 3 ans en contrat d&apos;apprentissage à la DSIBA
+          en tant que développeur/concepteur d&apos;application en Java et
+          pilote projet IT.
         </BioSection>
       </Section>
 
@@ -145,7 +140,8 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Musique, Clavier custom, Sneakers, Astronomie, Automobile, Jeu vidéo
+          Musique, Clavier custom, Sneakers, Astronomie, Automobile, Jeu vidéo,
+          Photographie
         </Paragraph>
       </Section>
 
@@ -166,13 +162,13 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/no1cetea" target="_blank">
+            <Link href="https://www.instagram.com/unthai.tled" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @no1cetea
+                @unthai.tled
               </Button>
             </Link>
           </ListItem>

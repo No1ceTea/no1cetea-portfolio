@@ -28,7 +28,6 @@ const Works = () => (
             Apprentissage de Blender avec les vidéos de{' '}
             <Link
               href="https://www.youtube.com/c/PolygonRunway"
-              scroll={false}
               target="_blank"
             >
               PolygonRunway

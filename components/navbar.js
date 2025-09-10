@@ -26,7 +26,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
     <Link
       as={NextLink}
       href={href}
-      scroll={false}
+      // scroll seulement si nécessaire (ici false constant => on l'omet)
       p={2}
       bg={active ? 'grassTeal' : undefined}
       color={active ? '#202023' : inactiveColor}
